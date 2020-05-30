@@ -9,20 +9,15 @@ It was created with HTML, CSS and Javascript. Its is lightweight and fully respo
 * Bootstrap with few animations.
 
 ## Setup
-* Clone the repository
+* Fork the repository at your profilet
+* Git Clone the repository to your local machine 
 * Replaced the content with your's info.
 
 ## TODO
-* Have to setup Gulp or Webpack for minification of script files.
 * Make it dynamic
 * Provide feature to change the themes or colors easily.
 
-## Changelog
 
-### 1.0.0
-
-* Relesed stable version with basic content
-* Added skills section
 ## License
 
 Completely free (MIT)! See [LICENSE.md](LICENSE.md) for more.
