@@ -1,1304 +1,974 @@
-<!--
-Author: Aryan Gupta
-Author URL: https://github.com/beingaryan
--->
-<!DOCTYPE HTML>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Aryan Gupta| Home :: Portfolio</title>
-  <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="js/jquery.min.js"></script>
-  <!-- Custom Theme files -->
-  <link href="css/style.css" rel='stylesheet' type='text/css' />
-  <!-- Custom Theme files -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="keywords" content="Aryan Gupta Resume Portfolio Preface Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
-Smartphone Compatible web template" />
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="theme-color" content="#ffffff">
-  <!-- End -->
-  <!-- webfonts -->
-  <link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
-  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-  <!-- webfonts -->
-  <!---- start-smoth-scrolling---->
-  <script type="text/javascript" src="js/move-top.js"></script>
-  <script type="text/javascript" src="js/easing.js"></script>
-  <script type="text/javascript">
-    jQuery(document).ready(function ($) {
-      $(".scroll").click(function (event) {
-        event.preventDefault();
-        $('html,body').animate({
-          scrollTop: $(this.hash).offset().top
-        }, 1000);
-      });
-    });
-  </script>
-  <!---- start-smoth-scrolling---->
-</head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Aryan Gupta — Backend Engineer · Siemens</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Sora:wght@700;800&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --bg:       #0d0f1a;
+    --surface:  #131624;
+    --surface2: #181b2e;
+    --border:   #1e2235;
+    --border2:  #252a40;
 
-<body>
-  <!-- container -->
-  <!-- header -->
-  <div id="home" class="header">
-    <div class="container">
-      <!-- top-hedader -->
-      <div class="top-header">
-        <!-- /logo -->
-        <!--top-nav---->
-        <div class="top-nav">
-          <div class="navigation">
-            <div class="logo">
-              <h1><a href="index.html"><span>I</span> AM</a></h1>
-            </div>
-            <div class="navigation-right">
-              <span class="menu"><img src="images/menu.png" alt=" " /></span>
-              <nav class="link-effect-3" id="link-effect-3">
-                <ul class="nav1 nav nav-wil">
-                  <li class="active"><a data-hover="Home" href="index.html">Home</a></li>
-                  <li><a class="scroll" data-hover="About" href="#about">About</a></li>
-                  <li><a class="scroll" data-hover="Skills" href="#services">Skills</a></li>
-                  <li><a class="scroll" data-hover="Experience" href="#work">Experience</a></li>
-                  <li><a class="scroll" data-hover="Projects" href="#blogs">Projects</a></li>
-                  <li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>
-                </ul>
-              </nav>
-              <!-- script-for-menu -->
-              <script>
-                $("span.menu").click(function () {
-                  $("ul.nav1").slideToggle(300, function () {
-                    // Animation complete.
-                  });
-                });
-              </script>
-              <!-- /script-for-menu -->
-            </div>
-            <div class="clearfix"></div>
-          </div>
-          <!-- /top-hedader -->
-        </div>
-        <div class="banner-info">
-          <div class="col-md-7 header-right">
-            <h1>Aryan Gupta</h1>
-            <h6>Undergraduate IT Engineer(2018-2022) from Vishwakarma Institute of Technology, Pune.</h6>
-            <div class="hero__links">
-              <a href="docs/3_Internships_Gupta_Aryan_IT_2022_Resume.pdf" target="_blank" class="hero__resume btn" title="Click to view my Resume">View Resume</a>
-              <ul class="hero__social">
-                <li>
-                  <a href="https://github.com/beingaryan" rel="noopener" target="_blank" title="Github">
-                    <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z"></path>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/aryan-gupta-6a9201191/" rel="noopener" title='LinkedIn' target="_blank">
-                    <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://medium.com/beingryaan" rel="noopener" target="_blank" title="Medium Blogs">
-                    <svg height="1792" width="1792" viewBox="0 0 111.5 22" class="aj"><path d="M56.3 19.5c0 .4 0 .5.3.7l1.5 1.4v.1h-6.5V19c-.7 1.8-2.4 3-4.3 3-3.3 0-5.8-2.6-5.8-7.5 0-4.5 2.6-7.6 6.3-7.6 1.6-.1 3.1.8 3.8 2.4V3.2c0-.3-.1-.6-.3-.7l-1.4-1.4V1l6.5-.8v19.3zm-4.8-.8V9.5c-.5-.6-1.2-.9-1.9-.9-1.6 0-3.1 1.4-3.1 5.7 0 4 1.3 5.4 3 5.4.8.1 1.6-.3 2-1zm9.1 3.1V9.4c0-.3-.1-.6-.3-.7l-1.4-1.5v-.1h6.5v12.5c0 .4 0 .5.3.7l1.4 1.4v.1h-6.5zm-.2-19.2C60.4 1.2 61.5 0 63 0c1.4 0 2.6 1.2 2.6 2.6S64.4 5.3 63 5.3a2.6 2.6 0 0 1-2.6-2.7zm22.5 16.9c0 .4 0 .5.3.7l1.5 1.4v.1h-6.5v-3.2c-.6 2-2.4 3.4-4.5 3.4-2.9 0-4.4-2.1-4.4-6.2 0-1.9 0-4.1.1-6.5 0-.3-.1-.5-.3-.7L67.7 7v.1H74v8c0 2.6.4 4.4 2 4.4.9-.1 1.7-.6 2.1-1.3V9.5c0-.3-.1-.6-.3-.7l-1.4-1.5v-.2h6.5v12.4zm22 2.3c0-.5.1-6.5.1-7.9 0-2.6-.4-4.5-2.2-4.5-.9 0-1.8.5-2.3 1.3.2.8.3 1.7.3 2.5 0 1.8-.1 4.2-.1 6.5 0 .3.1.5.3.7l1.5 1.4v.1H96c0-.4.1-6.5.1-7.9 0-2.7-.4-4.5-2.2-4.5-.9 0-1.7.5-2.2 1.3v9c0 .4 0 .5.3.7l1.4 1.4v.1h-6.5V9.5c0-.3-.1-.6-.3-.7l-1.4-1.5v-.2h6.5v3.1a4.6 4.6 0 0 1 4.6-3.4c2.2 0 3.6 1.2 4.2 3.5.7-2.1 2.7-3.6 4.9-3.5 2.9 0 4.5 2.2 4.5 6.2 0 1.9-.1 4.2-.1 6.5-.1.3.1.6.3.7l1.4 1.4v.1h-6.6zm-81.4-2l1.9 1.9v.1h-9.8v-.1l2-1.9c.2-.2.3-.4.3-.7V7.3c0-.5 0-1.2.1-1.8L11.4 22h-.1L4.5 6.8c-.1-.4-.2-.4-.3-.6v10c-.1.7 0 1.3.3 1.9l2.7 3.6v.1H0v-.1L2.7 18c.3-.6.4-1.3.3-1.9v-11c0-.5-.1-1.1-.5-1.5L.7 1.1V1h7l5.8 12.9L18.6 1h6.8v.1l-1.9 2.2c-.2.2-.3.5-.3.7v15.2c0 .2.1.5.3.6zm7.6-5.9c0 3.8 1.9 5.3 4.2 5.3 1.9.1 3.6-1 4.4-2.7h.1c-.8 3.7-3.1 5.5-6.5 5.5-3.7 0-7.2-2.2-7.2-7.4 0-5.5 3.5-7.6 7.3-7.6 3.1 0 6.4 1.5 6.4 6.2v.8h-8.7zm0-.8h4.3v-.8c0-3.9-.8-4.9-2-4.9-1.4.1-2.3 1.6-2.3 5.7z"></path></svg>
-            
-                  </a>
-                </li>
-                  medium
-                <li>
-                         
-                </li>
-              </ul>
-            </div>
-            <ul class="address">
+    --white:    #ffffff;
+    --body:     #8b9199;
+    --muted:    #4a5168;
+    --label:    #6b7aff;
 
-              <li>
-                <ul class="address-text">
-                  <li><b>NAME</b></li>
-                  <li>Aryan Gupta</li>
-                </ul>
-              </li>
-              <li>
-                <ul class="address-text">
-                  <li><b>D.O.B</b></li>
-                  <li>21-FEB-2000</li>
-                </ul>
-              </li>
-              <li>
-                <ul class="address-text">
-                  <li><b>MOBILE </b></li>
-                  <li>+91 6263293478</li>
-                </ul>
-              </li>
-              <li>
-                <ul class="address-text">
-                  <li><b>ADDRESS </b></li>
-                  <li>Pune, India.</li>
-                </ul>
-              </li>
-              <li>
-                <ul class="address-text">
-                  <li><b>E-MAIL </b></li>
-                  <li><a href="mailto:aryan.gupta18@vit.edu"> aryan.gupta18@vit.edu</a></li>
-                </ul>
-              </li>
-              <li>
-                <ul class="address-text">
-                  <li><b>WEBSITE </b></li>
-                  <li><a href="https://github.com/beingaryan">beingaryan</a></li>
-                </ul>
-              </li>
-                <li>
-                <ul class="address-text">
-                  <li><b>BLOG </b></li>
-                  <li><a href="https://medium.com/beingryaan">beingryaan CLICK HERE</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-5 header-left">
-            <img src="images/profile.jpg" width="700" height="400" alt="">
-          </div>
-          <div class="clearfix"> </div>
+    --blue:     #5b8ff9;
+    --gold:     #f0a500;
+    --green:    #4ecb8d;
+    --purple:   #a855f7;
 
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- about -->
-  <div id="about" class="about">
-    <div class="col-md-6 about-left">
-      <div id="owl-demo1" class="owl-carousel owl-carousel2">
-        <div class="item">
-          <div class="about-left-grid">
-            <h2>As an <span>Information Technology Engineering Undergraduate</span></h2>
-            <p><strong>Since 2018,</strong> I have been learning in <a href="http://www.vit.edu/" target="_blank">Vishwakarma Institute of Technology,Pune.</a>I consider myself as a Skilled-IT Engineer with profound work experience in Programming, <strong>Neural Networks, CNN, Machine Learning</strong>,and automation technologies.Developed projects using CNN algorithm for Mute and Blind people and Research Paper for the same is about to get accepted by ICMLIP headed by <strong>Springer Foundations</strong>. Seeking to leverage the first-hand Experience with Machine Learning and Neural Networks Technology and integrated systems to become the LEAD ML Developer at a Young Age.      
-              <p> I am a keen Tech Enthusiast aimed at <strong>evolving, growing myself as a person </strong> and to make myself better at what I'm doing right now. Aparts, I'm a very passionate individual when it comes to follow my deep-rooted beliefs. Building the models, right from scratch and generating accuracy is what drives me.
-              <ul>
-                <li><a class="a-btn-a scroll" href="#port">My Work</a></li>
-                <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
-              </ul>
-          </div>
-        </div>
-        <div class="item">
-          <div class="about-left-grid">
-            <h2>My <span>Education</span></h2>
-            <p>I've completed my,
-              <P>
-                <p>XII Boards in CBSE from <a href="http://mvaburhanpur.com/" target="_blank"> Macro Vision Academy</a>,
-                  during the period of 2016-2018 with a proficient score of 84% Aggregate and MATHS SCORE- 90/100 . .
-                  <p>Before this, I've completed my X CBSE BOARDS from <a href="http://www.christjyotisatna.org/" target="_blank">Christ Jyoti Sr. Sec School </a>                    SATNA, during the period of 2012 - 2016 with an aggregate pointer of 9.6/10 CGPA.</p>
-                  <ul>
-                    <li><a class="a-btn-a scroll" href="#port">My Work</a></li>
-                    <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
-                  </ul>
-          </div>
-        </div>
-        <div class="item">
-          <div class="about-left-grid">
-            <h2>Free time or <span>Hobbies</span></h2>
-            <p>When I’m not in front of a computer I enjoy travelling or meeting new people to grow out my soft skills. Aparts, I'm a profound Blog writer on <a href="https://medium.com/beingryaan" target="_blank">MEDIUMS PLATFORM</a>. Recently, I've started my  <a href="https://www.youtube.com/playlist?list=PLYGwl7T4aureAEr8qgk-97ZOnSQosZtRc" target="_blank"> Youtube Channel</a> as well where I'll be giving the explanation of the projects which I'll be accomplishing. Aparts,Competitive Programming Do excites me as well.</p>
-            <p>I have been fortunate to learn and having new experiences in general.</p>
-            <ul>
-              <li><a class="a-btn-a scroll" href="#port">My Work</a></li>
-              <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6 about-right">
+    --btn:      #6b7aff;
+    --btn-h:    #8b96ff;
 
-    </div>
-    <div class="clearfix"> </div>
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <script src="js/owl.carousel.js"></script>
-    <script>
-      $(document).ready(function () {
-        $("#owl-demo1").owlCarousel({
-          items: 1,
-          lazyLoad: false,
-          autoPlay: true,
-          navigation: false,
-          navigationText: false,
-          pagination: true,
-        });
-      });
-    </script>
-    <!-- Feedback -->
-    <script>
-      $(document).ready(function () {
-        $("#owl-demo3").owlCarousel({
-          items: 1,
-          lazyLoad: false,
-          autoPlay: true,
-          navigation: false,
-          navigationText: true,
-          pagination: true,
-        });
-      });
-    </script>
-  </div>
-  <!-- /about -->
-  <!-- services -->
-  <div id="services" class="services">
-    <div class="container">
-      <div class="service-head one text-center ">
-        <h4>WHAT I DO</h4>
-        <h3>MY <span>SKILLS</span></h3>
-        <span class="border two"></span>
-      </div>
-      <!-- services-grids -->
-      <div class="wthree_about_right_grids w3l-agile">
-        <div class="col-md-6 wthree_about_right_grid">
-          <div class="col-xs-2 wthree_about_right_grid_left">
-            <div class="hvr-rectangle-in">
-              <i class="glyphicon glyphicon-th-large"></i>
-            </div>
-          </div>
-          <div class="col-xs-10 wthree_about_right_grid_right">
-            <h4>Deep-Learning Development</h4>
-          </div>
-          <div class="clearfix"> </div>
-          <div class="col-md-12 skill-group-div">
-            <!-- Skill Bars -->
-            <div class="col-md-6 left-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">TensorFlow <i class="val">85%</i></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 right-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">Keras <i class="val">80%</i></span>
-                </div>
-              </div>
-            </div>
-                <div class="col-md-6 left-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">Computer Vision<i class="val">78%</i></span>
-                </div>
-              </div>
-            </div>
-               <div class="col-md-6 left-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">Object Detection Frameworks <i class="val">80%</i></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 left-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">Neural Networks <i class="val">85%</i></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 right-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">Convolutional Neural Networks <i class="val">85%</i></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 left-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">Data Analytics <i class="val">82%</i></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 right-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">PRE-TRAINED MODELS <i class="val">80%</i></span>
-                </div>
-              </div>
-            </div>
-              <!-- <div class="col-md-6 right-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">HTML <i class="val">70%</i></span>
-                </div>
-              </div>
-            </div>
-              <div class="col-md-6 right-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">CSS <i class="val">70%</i></span>
-                </div>
-              </div>
-            </div> -->
-          
-            <div class="col-md-6 right-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">Natural Language Processing <i class="val">68%</i></span>
-                </div>
-              </div>
-            </div>
-           
-               <div class="col-md-6 right-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">Transfer Learning<i class="val">85%</i></span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="clearfix"> </div>
-        </div>
-        <div class="col-md-6 wthree_about_right_grid">
-          <div class="col-xs-2 wthree_about_right_grid_left">
-            <div class="hvr-rectangle-in">
-              <i class="glyphicon glyphicon-leaf"></i>
-            </div>
-          </div>
-          
+    --font-head: 'Sora', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  }
 
-          
-       /
-              <!-- <div class="col-md-6 right-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">HTML <i class="val">70%</i></span>
-                </div>
-              </div>
-            </div> -->
-              <!-- <div class="col-md-6 right-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">CSS <i class="val">70%</i></span>
-                </div>
-              </div>
-            </div> -->
-            <!-- <div class="col-md-6 left-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">Computer Vision<i class="val">78%</i></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 right-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">Natural Language Processing <i class="val">68%</i></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 left-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">Real-Time Frameworks <i class="val">80%</i></span>
-                </div>
-              </div>
-            </div>
-               <div class="col-md-6 right-div">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">NumPY,Pandas,Matplotlib,Seaborn<i class="val">85%</i></span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="clearfix"> </div>
-        </div>
-        <div class="col-md-6 wthree_about_right_grid">
-          <div class="col-xs-2 wthree_about_right_grid_left">
-            <div class="hvr-rectangle-in">
-              <i class="glyphicon glyphicon-leaf"></i>
-            </div>
-          </div> -->
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg); color: var(--body);
+    font-family: var(--font-body); font-size: 14px;
+    line-height: 1.7; overflow-x: hidden; cursor: none;
+  }
 
+  /* CURSOR */
+  .cursor { width:10px; height:10px; background:var(--btn); border-radius:50%; position:fixed; top:0; left:0; pointer-events:none; z-index:9999; }
+  .cursor-ring { width:32px; height:32px; border:1px solid rgba(107,122,255,0.4); border-radius:50%; position:fixed; top:0; left:0; pointer-events:none; z-index:9998; }
 
-          <div class="col-xs-10 wthree_about_right_grid_right">
-            <h4>Programming Languages</h4>
-          </div>
-          <div class="clearfix"> </div>
-          <div class="col-md-12 skill-group-div">
-            <!-- Skill Bars -->
-            <div class="progress skill-bar ">
-              <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                <span class="skill">C <i class="val">90%</i></span>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">C++ <i class="val">85%</i></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="progress skill-bar">
-                <div class="progress-bar progress-bar-success" role="progressbar"  aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">
-                  <span class="skill">Python <i class="val">80%</i></span>
-                </div>
-              </div>
-            </div>
-            
-        <div class="col-md-6 wthree_about_right_grid">
-          <!--<div class="col-xs-2 wthree_about_right_grid_left">
-            <div class="hvr-rectangle-in">
-              <i class="glyphicon glyphicon-gift"></i>
-            </div>
-          </div>-->
-          <div class="col-xs-10 wthree_about_right_grid_right">
-            <h4>Databases</h4>
-            <ul class="news">
-              <li>SQL</li>
-             
-            </ul>
-          </div>
-          <div class="clearfix"> </div>
-        </div>
-        <div class="col-md-6 wthree_about_right_grid">
-          <!--<div class="col-xs-2 wthree_about_right_grid_left">
-            <div class="hvr-rectangle-in">
-              <i class="glyphicon glyphicon-wrench"></i>
-            </div>
-          </div>-->
-          <div class="col-xs-10 wthree_about_right_grid_right">
-            <h4>InterPersonal Skills</h4>
-            <ul class="news">
-              <li>Communication</li>
-              <li>Leadership </li>
-              <li>Team-Building</li>
-             
-              
-            </ul>
-          </div>
-          <div class="clearfix"> </div>
-        </div>
-       <!--- <div class="col-md-6 wthree_about_right_grid">
-          <!--<div class="col-xs-2 wthree_about_right_grid_left">
-            <div class="hvr-rectangle-in">
-              <i class="glyphicon glyphicon-certificate"></i>
-            </div>
-          </div>-->
-          <!--- <div class="col-xs-10 wthree_about_right_grid_right">
-            <h4>Tools & Platforms</h4>
-            <ul class="news">
-              <li>Windows</li>
-              <li>Linux</li>
-              
-              <li>Notepad++</li>
-            </ul>
-            <ul class="news">
-              <li>GCP</li>
-                <li>Azure</li>
-                <li>GIT VERSION CONTROL</li>
-            </ul>
-          </div>
-          <div class="clearfix"> </div>
-        </div>--->
-        
-       <!--
-        <div class="col-md-6 wthree_about_right_grid">
-          <!--<div class="col-xs-2 wthree_about_right_grid_left">
-            <div class="hvr-rectangle-in">
-              <i class="glyphicon glyphicon-certificate"></i>
-            </div>
-          </div>-->
-          <!--<div class="col-xs-10 wthree_about_right_grid_right">
-            <h4>Others</h4>
-            <ul class="news">
-              <li>Redis</li>
-              <li>AWS</li>
-              <li>E-Commerce</li>
-              <li>Windows & Linux</li>
-            </ul>
-          </div>
-          <div class="clearfix"> </div>
-        </div>-->
-        
-        
-      </div>
-    </div>
+  /* NAV */
+  nav {
+    position:fixed; top:0; left:0; right:0; z-index:100;
+    display:flex; align-items:center; justify-content:space-between;
+    padding:16px 48px;
+    transition:background 0.3s, border-color 0.3s;
+    border-bottom:1px solid transparent;
+  }
+  nav.scrolled { background:rgba(13,15,26,0.94); backdrop-filter:blur(16px); border-color:var(--border); }
+  .nav-logo { font-family:var(--font-head); font-weight:800; font-size:15px; color:var(--white); text-decoration:none; }
+  .nav-links { display:flex; gap:26px; list-style:none; font-size:13px; }
+  .nav-links a { color:var(--body); text-decoration:none; transition:color 0.2s; }
+  .nav-links a:hover { color:var(--white); }
+  .nav-right { display:flex; align-items:center; gap:18px; }
+  .nav-resume { color:var(--body); font-size:13px; text-decoration:none; transition:color 0.2s; white-space:nowrap; }
+  .nav-resume:hover { color:var(--white); }
+  .nav-cta { background:var(--btn); color:var(--white); font-size:13px; font-weight:500; padding:9px 22px; border-radius:999px; text-decoration:none; transition:background 0.2s; white-space:nowrap; }
+  .nav-cta:hover { background:var(--btn-h); }
 
-    <!-- services-grids -->
-  </div>
-  </div>
-  <!-- services -->
-  <!--work-experience-->
-    
-   
-    
-  <div id="work" class="work">
-    <div class="container">
-      <div class="service-head text-center">
-          <div class="col-md-6 news-img">
-          <a href="#" data-toggle="modal" data-target="#slogerrMdl"><img src="images/b2.jpg" alt=" " class="img-responsive"> </a>
-        </div>
-          
-      <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="aryan-gupta-6a9201191"><a class="LI-simple-link" href='https://in.linkedin.com/in/aryan-gupta-6a9201191?trk=profile-badge'>Aryan Gupta</a></div>
-      
-        <h4>WHAT I DID</h4>
-        <h3 style="color:white;" >MY <span>EXPERIENCE</span></h3>
-        <span class="border one"></span>
-      </div>
-      <div class="time-main w3l-agile">
-        <div class="col-md-6 year-info">
-          <ul class="year">
-            <li>SEPTEMBER 2020 - PRESENT <i class="glyphicon glyphicon-arrow-right"></i> <span id="tillDate"></span></li>
-            <div class="clearfix"></div>
-          </ul>
-        </div>
-        <ul class="col-md-6 timeline">
-          <li>
-            <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title"> Project Trainee(Intern) at <a href="https://www.tatacommunications.com/"><strong>Tata Communications Ltd</strong></a></h4>
-              </div>
-              <div class="timeline-body">
-                <p>Working in the field of AI and ML with Computer Vision. </p>
-                <p>Carried the responsibility of Developing and Deploying the ML model on miniaturised edge-end device.
-                <p>Explored the domain of Facial Sentimental Analysis with Deep Learning</p>
-              </div> 
-            </div>
-          </li>
-            
-             
+  /* HERO */
+  .hero {
+    min-height:100vh; display:flex; flex-direction:column;
+    justify-content:center; align-items:center; text-align:center;
+    padding:120px 32px 48px;
+  }
+  .hero::before {
+    content:''; position:absolute; top:-5%; left:50%; transform:translateX(-50%);
+    width:900px; height:600px;
+    background:radial-gradient(ellipse at center, rgba(107,122,255,0.13) 0%, transparent 70%);
+    pointer-events:none;
+  }
+  .hero-badge { font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--label); margin-bottom:28px; opacity:0; animation:fadeUp 0.7s 0.2s forwards; }
+  .hero-title { font-family:var(--font-head); font-size:clamp(56px,7vw,92px); max-width:10ch; font-weight:800; line-height:0.92; letter-spacing:-0.03em; color:var(--white); margin-bottom:20px; opacity:0; animation:fadeUp 0.8s 0.35s forwards; background:linear-gradient(135deg,#fff 40%,#9aa3c9 100%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; }
+  .hero-sub { font-size:17px; color:var(--body); margin-bottom:14px; opacity:0; animation:fadeUp 0.8s 0.45s forwards; }
+  .hero-sub strong { color:var(--white); font-weight:600; }
+  .hero-tw { font-family:var(--font-body); font-size:13px; color:var(--label); margin-bottom:36px; min-height:20px; opacity:0; animation:fadeUp 0.8s 0.55s forwards; }
+  .hero-actions { display:flex; gap:12px; flex-wrap:wrap; justify-content:center; opacity:0; animation:fadeUp 0.8s 0.65s forwards; margin-bottom:40px; }
+  .btn-primary { background:var(--btn); color:var(--white); font-size:14px; font-weight:500; padding:13px 28px; border-radius:999px; text-decoration:none; transition:background 0.2s, transform 0.2s; display:inline-flex; align-items:center; gap:8px; }
+  .btn-primary:hover { background:var(--btn-h); transform:translateY(-1px); }
+  .btn-ghost { background:transparent; border:1px solid var(--border2); color:var(--body); font-size:14px; padding:13px 28px; border-radius:999px; text-decoration:none; transition:border-color 0.2s, color 0.2s; display:inline-flex; align-items:center; gap:8px; }
+  .btn-ghost:hover { border-color:var(--body); color:var(--white); }
 
+  /* HERO STATS */
+  .hero-stats { background:var(--surface); border:1px solid var(--border); border-radius:16px; display:grid; grid-template-columns:repeat(4,1fr); padding:28px 0; width:100%; max-width:760px; opacity:0; animation:fadeUp 0.8s 0.8s forwards; }
+  .hstat { padding:0 20px; text-align:center; border-right:1px solid var(--border); }
+  .hstat:last-child { border-right:none; }
+  .hstat-val { font-family:var(--font-head); font-size:26px; font-weight:800; line-height:1; margin-bottom:6px; }
+  .hstat-lbl { font-size:10px; letter-spacing:0.06em; text-transform:uppercase; color:var(--muted); }
 
+  /* TICKER */
+  .ticker-wrap { overflow:hidden; padding:10px 0; background:var(--surface); border-top:1px solid var(--border); border-bottom:1px solid var(--border); white-space:nowrap; }
+  .ticker { display:inline-flex; animation:ticker 42s linear infinite; }
+  .ti { font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:var(--muted); padding:0 16px; display:flex; align-items:center; gap:8px; }
+  .ti span.blue   { color:var(--blue); font-weight:600; }
+  .ti span.gold   { color:var(--gold); font-weight:600; }
+  .ti span.green  { color:var(--green); font-weight:600; }
+  .ti span.purple { color:var(--purple); font-weight:600; }
+  .ti-sep { color:var(--border2); padding:0 4px; }
+  @keyframes ticker { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
 
-      
+  /* SECTIONS */
+  section { padding:72px 32px; }
+  /* Use a .sec-wrap div inside each section for centering — NOT section > * */
+  /* so that individual children like sec-sub don't get auto margins forced on them */
+  .sec-wrap { max-width:1290px; margin-left:auto; margin-right:auto; }
+  .sec-label { display:flex; align-items:center; gap:12px; font-size:11px; letter-spacing:0.1em; text-transform:uppercase; color:var(--label); margin-bottom:24px; }
+  .sec-label::before { content:''; display:inline-block; width:28px; height:1px; background:var(--label); }
+  .sec-heading { font-family:'Sora', ui-sans-serif, system-ui, -apple-system, sans-serif; font-size:clamp(38px,5.2vw,64px); font-weight:800; line-height:1.05; letter-spacing:-0.02em; color:var(--white); margin-bottom:18px; }
+  .sec-sub { font-size:15px; color:var(--body); max-width:560px; line-height:1.85; margin-bottom:52px; margin-left:0; margin-right:0; }
 
+  /* ABOUT */
+  .about-grid { display:grid; grid-template-columns:1.2fr 1fr; gap:32px; align-items:start; }
+  .about-body { font-size:15px; line-height:1.85; max-width:68ch; }
+  .about-body p + p { margin-top:16px; }
+  .acard-grid { display:grid; grid-template-columns:repeat(2, 1fr); gap:14px; }
+  .acard { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:24px; transition:border-color 0.2s; }
+  .acard:hover { border-color:var(--border2); }
+  .acard.wide { grid-column:span 2; }
+  .acard .icon { font-size:20px; margin-bottom:10px; }
+  .acard h4 { font-size:13px; font-weight:600; color:var(--white); margin-bottom:5px; }
+  .acard p { font-size:12px; color:var(--muted); line-height:1.7; }
+  .exploring-tag { font-size:10px; letter-spacing:0.07em; text-transform:uppercase; color:var(--green); margin-bottom:6px; display:flex; align-items:center; gap:6px; }
+  .exploring-tag::before { content:''; width:7px; height:7px; border-radius:50%; background:var(--green); display:inline-block; animation:blink 2s infinite; }
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
 
+  /* =============================================
+     IMPACT SECTION — FULL REDESIGN
+     ============================================= */
+  .impact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
 
-          
-          <!--     
-           <span class="border one"></span>  
-        <div class="time-main w3l-agile">
-          <ul class="year">
-            <li>DEC 2019 - FEB 2020 <i class="glyphicon glyphicon-arrow-right"></i> <span id="tillDate"></span></li>
-            <div class="clearfix"></div>
-          </ul>
-        </div>
-                 
-                --> 
-                 
-        <!-- <ul class="col-md-6 timeline">
-          <li>
-            <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">Marketing Team Lead Vestige Marketing Pvt. Ltd.</a></h4>
-              </div>
-              <div class="timeline-body">
-                <p>I have learned Team Building, Network Building, Business Development,Communication Enhancement , Follow-Up Strategies practically with on-field interaction. I have handled a team size of 20+ associates. We as a team achieved a total turnover of <strong> 0.1 million within 3 months</strong>. Had a great experience in B2C and B2B deals.</p>
-              </div>
-            </div>
-          </li>
-            
-            
-        </ul>
-            <div class="col-md-6 news-img">
-          <a href="#" data-toggle="modal" data-target="#slogerrMdl"><img src="images/pic12.jpg" alt=" " class="img-responsive"> </a>
-        </div>
-            
-             -->
-            
-            <span class="border one"></span>  
-        <div class="time-main w3l-agile">
-          <ul class="year">
-            <li>  </li>
-            <div class="clearfix"></div>
-          </ul>
-        </div>
-          
-        
-                 
-        <ul class="col-md-6 timeline">
-          <li>
-            <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title"><p>Research Intern at</p> <a href="http://cbd.cmu.edu/people/xu.html"> Carnegie Mellon University</a></h4>
-              </div>
-              <div class="timeline-body">
-                <p>Exploring the field of Computer Vision with Deep Learning.</p>
-                <p>Performing Object Detection on a molecular level.</p>
-                <p>Utilizing Transformer Network for detecting cellular objects on Cryo-EM data.</p>
-              </div>
-            </div>
-          </li> 
-        
-        </ul>
-        <div class="col-md-6 news-img">
-      <a href="#" data-toggle="modal" data-target="#slogerrMdl"><img src="images/pic10.jpg" alt=" " class="img-responsive"> </a>
-    </div>
-        
-        <span class="border one"></span>  
-    <div class="time-main w3l-agile">
-      <ul class="year">
-        <li>Jan 2021 - PRESENT <i class="glyphicon glyphicon-arrow-left"></i> <span id="tillDate"></span></li>
-        <div class="clearfix"></div>
-      </ul>
-        
-        
-        
-        
-                 
-        <ul class="col-md-6 timeline">
-          <li>
-            <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title"><p>Deep Learning Intern at</p> <a href="http://www.iitkgp.ac.in/"> Indian Institute of Technology, Kharagpur</a></h4>
-              </div>
-              <div class="timeline-body">
-                <p>Explored the field of Natural Language Processing with Hybrid Neural Network Architecture</p>
-                <p>Developed a ML model with 90% accuracy and with Average Weighted F1 score as 0.87. </p><p>Have surpassed several research papers Achievements.</p>
-                <p>Construced an Analytical Study to avoid onsite Construction Accidents</p>
-              </div>
-            </div>
-          </li> 
-        
-        </ul>
-        <div class="col-md-6 news-img">
-      <a href="#" data-toggle="modal" data-target="#slogerrMdl"><img src="images/pic10.jpg" alt=" " class="img-responsive"> </a>
-    </div>
-        
-        <span class="border one"></span>  
-    <div class="time-main w3l-agile">
-      <ul class="year">
-        <li>July 2020 - October 2020 <i class="glyphicon glyphicon-arrow-left"></i> <span id="tillDate"></span></li>
-        <div class="clearfix"></div>
-      </ul>
-        
-    </div>
-    <ul class="col-md-6 timeline">
-      <li>
-        <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4 class="timeline-title">Administrator and Summer Intern at <a href="https://vitpunerobotics.com/"> The Robotics Forum</a></h4>
-          </div>
-          <div class="timeline-body">
-            <p> Directing smooth and interactive conduction of Technical Workshops.</p>
-            <p>Accelerating Hands-on-Learning experience </p>
-            <p>SUMMER INTERN focussed on generating Solutions to the challenges provided in
-              Technical vivid Domains</p> 
-            <p> </p>
-          </div>
-        </div>
-      </li>
-        </ul>
-        <div class="col-md-6 news-img">
-      <a href="#" data-toggle="modal" data-target="#slogerrMdl"><img src="images/pic14.jpg" alt=" " class="img-responsive"> </a>
-    </div>
-        
-        
-        <span class="border one"></span>  
-    <div class="time-main w3l-agile">
-      <ul class="year">
-        <li>June 2020 <i class="glyphicon glyphicon-arrow-left"></i> <span id="tillDate"></span></li>
-        <div class="clearfix"></div>
-      </ul>
-    </div>
-    
-    <ul class="col-md-6 timeline">
-      <li>
-        <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4 class="timeline-title">Head and Trainer at <a href="https://vitpunerobotics.com/"> GedIT Coding Club</a></h4>
-          </div>
-          <div class="timeline-body">
-            <p>Conducting technical workshops in the field of Machine Learning, Deep Learning and Neural Networks </p>
-            <p>Mentoring Students with Industry Based ML and DL Applications</p> 
-            <p>Coordinatng cross-domain Responsibilities</p>
-          </div>
-        </div>
-      </li>
-        </ul>
-        <div class="col-md-6 news-img">
-      <a href="#" data-toggle="modal" data-target="#slogerrMdl"><img src="images/pic14.jpg" alt=" " class="img-responsive"> </a>
-    </div>
-        
-        
-        <span class="border one"></span>  
-    <div class="time-main w3l-agile">
-      <ul class="year">
-        <li>October 2020-Present <i class="glyphicon glyphicon-arrow-left"></i> <span id="tillDate"></span></li>
-        <div class="clearfix"></div>
-      </ul>
-    </div>
+  .icard {
+    position: relative;
+    overflow: hidden;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    transition: border-color 0.35s ease, transform 0.35s ease, background 0.35s ease;
+    min-height: 300px;
+  }
 
+  /* Per-card glow color */
+  .icard:nth-child(1) { --glow: var(--blue); }
+  .icard:nth-child(2) { --glow: var(--gold); }
+  .icard:nth-child(3) { --glow: var(--green); }
+  .icard:nth-child(4) { --glow: var(--purple); }
 
-       
-          <ul class="col-md-6 timeline">
-          <li>
-            <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">Campus Ambassador at <a href="https://www.linkedin.com/company/kshitij-iit-kharagpur/"> Kshitij IIT Kharagpur</a></h4>
-              </div>
-              <div class="timeline-body">
-                <p>Head Incharge of creating On-field Campus Marketing Strategy for the Kshitij
-                  Event.</p>
-                <p>Was leading with the role of Leads Generation via campus table tents,social media
-                  promotions and developed Marketing Strategy.</p>
-              </div>
-            </div>
-          </li>
-            
-            
-            
-        </ul>
-            <div class="col-md-6 news-img">
-          <a href="#" data-toggle="modal" data-target="#slogerrMdl"><img src="images/pic10.jpg" alt=" " class="img-responsive"> </a>
-        </div>
-            
-            <span class="border one"></span>  
-        <div class="time-main w3l-agile">
-          <ul class="year">
-            <li>OCT 2019 - JAN 2020 <i class="glyphicon glyphicon-arrow-left"></i> <span id="tillDate"></span></li>
-            <div class="clearfix"></div>
-          </ul>
-            
-        </div>
-            
-                 
-                 
-                 
-        <ul class="col-md-6 timeline">
-          <li>
-            <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">DATA ANALYTICS CONSULTANT at <a href="https://home.kpmg/xx/en/home.html"> KPMG</a></h4>
-              </div>
-              <div class="timeline-body">
-                <p>Developed an Analysis model for accelerating drive in sales</p>
-                <p>Used several correlation and Heatmap plotting techniques to carry out analysis</p>
-                <p>Learnt to deal with Data Preprocessing Schemes</p>
-              </div>
-            </div>
-          </li>
-            
-            
-        </ul>
-            
-            <div class="col-md-6 news-img">
-          <a href="#" data-toggle="modal" data-target="#slogerrMdl"><img src="images/pic9.jpg" alt=" " class="img-responsive"> </a>
-        </div>
-            <span class="border one"></span>  
-        
-        
-        <div class="time-main w3l-agile">
-          <ul class="year">
-            <li>May 2020 <i class="glyphicon glyphicon-arrow-left"></i> <span id="tillDate"></span></li>
-            <div class="clearfix"></div>
-          </ul>
-            
-        </div>
-                  
-<!--         <ul class="col-md-6 timeline">
-            
-        <li>
-          <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title"> Marketing Team Lead at <a href="https://www.myvestige.com/"><i>Vestige Marketing Pvt. Ltd.</i></a></h4>
-            </div>
-            <div class="timeline-body">
-              <p>Accelerated Team Building, Network Building, Business Development,Communication Enhancement , Follow-Up Strategies practically with on field interaction. </p>
-              <p>Created and handled a team size of 20+ associated. We as a
-                  Team achieved a total turnover of <strong> 0.1 million within 3
-                  months.</strong></p>
-              <p> Conducted Talk Seminars for the Promotions of the
-                  Organisations.
-                  Assisted in Follow-ups to fetch growth.</p>
-            </div> 
-          </div>
-        </li>
-        </ul>
-        
-        <div class="col-md-6 news-img">
-          <a href="#" data-toggle="modal" data-target="#slogerrMdl"><img src="images/pic9.jpg" alt=" " class="img-responsive"> </a>
-        </div>
-            <span class="border one"></span> 
-        
-        <div class="time-main w3l-agile">
-          <ul class="year">
-            <li>FEB 2020-MAY 2020 <i class="glyphicon glyphicon-arrow-left"></i> <span id="tillDate"></span></li>
-            <div class="clearfix"></div>
-          </ul>
-            
-        </div>         -->
-     
-            
-            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5"style="color:floralwhite;" >Awards &amp; Achievements </h2>
-        <ul class="fa-ul mb-0">
-          <li color=red>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-              <p style="color:red;">Awarded as "Best Mind of Satna" by Rotary Club, Satna</p></li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-           
-            <p style="color:red;"> 1<sup>st</sup> Place - Intra School Science Project Competition </p></li>
-        
-        </ul>
-      </div>
-    </section>
-               
-            
-             
-            
-                
-                 
-                 
-                 
-                 
-                 
-                 
-        <div class="clearfix"></div>
-      </div>
-    </div>
-  </div>
-  <!--//work-experience-->
-  <!-- top-grids -->
-  <div class="blog" id="blogs">
-    <div class="container">
-      <div class="service-head text-center">
-        <h4>PROJECTS</h4>
-        <h3 style="color:floralwhite;">MY <span>Projects</span></h3>
-        <span class="border one"></span>
-      </div>
-      <div class="news-grid w3l-agile">
-        
-            <div class="col-md-6 news-img">
-          <a href="#" data-toggle="modal" data-target="#slogerrMdl"><img src="images/output.gif" alt=" " class="img-responsive"> </a>
-        </div>
-          <div class="col-md-6 news-text">
-          <h3> <a href="https://github.com/beingaryan/Sign-To-Speech_conversion" target="_blank">SIGN TO Speech Conversion for Mute People </a></h3>
-          <ul class="news">
-            <li>CNN</li>
-            <li>COMPUTER VISISON</li>
-            <li>Neural Networks</li>
-            <li>Machine Learning</li>
-            <li>gTTs</li>
-            <li>Artificial Neural Network</li>
-          </ul>
-          <p><strong> SIGN TO Speech Conversion for Mute People:</strong> The purpose of this project is to contribute in recognizing American sign languages(ASL) to the field of automatic sign language recognition with maximum efficiency.This model basically focuses on the real time static gestures which are collected from Laptop Webcam and then convert into corresponding Sign Language with the help of voice modules.With the design of a good classifier it can classify the input static gestures with high accuracy. The system trained CNNs for the classification of twenty five(5) alphabets using 150-200 images. The system has trained the classifier with different parameter configurations and tabulated the results. Compared to previous literature the proposed work attained an efficiency of 99.35% for our classifier .The result shows that accuracy improves as we include more data from different subjects during training.</p>
-          <a href="#" data-toggle="modal" data-target="#tlmMdl" class="read hvr-shutter-in-horizontal">Read More</a>
-        </div>
-          <div class="clearfix"></div>
-      </div>
-      
-                
-         
-          
-        
-          <div class="col-md-6 news-img">
-          <a href="#" data-toggle="modal" data-target="#slogerrMdl"><img src="images/b1.jpg" alt=" " class="img-responsive"> </a>
-        </div>
-        <div class="col-md-6 news-text">
-          <h3> <a href="https://medium.com/beingryaan/real-time-object-detection-along-with-distance-and-voice-alerts-for-blinds-a-blind-assistance-1708b97c3ecc" target="_blank">VISION-I(REAL TIME OBJECT DETECTION)</a></h3>
-          <ul class="news">
-            <li>SSD MODELS</li>
-            <li>TensorFlow</li>
-            <li>PyTorch</li>
-            <li>MobileNet</li>
-            <li>Computer Vision</li>
-            <li>Pytesseract</li>
-              <li>NumPy</li>
-              <li>Matplotlib</li>
-          </ul>
-          <p><strong> Real Time Object Detection</strong> deals with capturing real-time frames and will send it to a laptop based Networked Server where all the computations take place.The Laptop Based Server will be using a pre-trained SSD detection model trained on COCO DATASETS. It will then test and the output class will get detected with an accuracy metrics. The voice modules will generate the class of the object in a converted voice notes which will then be sent to the blind victims for their assistance. Along with the object detection , we have used an alert system where approximate distance will get calculated. If that Blind Person is very close to the frame or is far away at a safer place , it will generate voice-based outputs along with distance units.</p>
-          <a href="#" data-toggle="modal" data-target="#ckgsMdl" class="read hvr-shutter-in-horizontal">Read More</a>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-      </div>
-      
-        
-        
-<!--
-        <div class="col-md-6 news-img">
-          <a href="#" data-toggle="modal" data-target="#slogerrMdl"><img src="images/b2.jpg" alt=" " class="img-responsive"> </a>
-        </div>
-          <div class="col-md-6 news-text">
-          <h3> <a href="https://github.com/beingaryan/beingaryan.github.io" target="_blank">PORTFOLIO WEBSITE</a></h3>
-          <ul class="news">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>BOOTSTRAP</li>
-            <li>JS</li>
-            <li>Jquery</li>
-          </ul>
-          <p><strong> Portfolio webpage to showcase description of work experiences, educations, projects with demo images and reference links,social media profiles across all platforms and award certificates. This innovative Website can help lots of Undergrads and Final Year Students to Create a portfolio for themselves and make their profile to stand out from others. It enhances the overall representation of a person's profile in a more appealing medium. </p>
-            <p>It has a core feature that it is being hosted on github portal so it can be easily forked and with little changes can be used by other interested people. It can help in enhancing the community.</p>
-          <a href="#" data-toggle="modal" data-target="#cktsMdl" class="read hvr-shutter-in-horizontal">Read More</a>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-        
--->
-        
-        
-        
-     
-        
-        
-  <!-- top-grids -->
-  <!-- /blog-pop-->
+  /* Top accent bar */
+  .icard::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--glow);
+    opacity: 0.4;
+    transition: opacity 0.4s ease;
+  }
+  .icard:hover::before { opacity: 1; }
 
-  <div class="modal ab fade" id="tlmMdl" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog about" role="document">
-      <div class="modal-content about">
-        <div class="modal-header">
-          <span class="project-title">Sign To Speech Conversion</span>
-          <button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        </div>
-        <div class="modal-body about">
-          <div class="about">
+  /* Background glow orb */
+  .icard::after {
+    content: '';
+    position: absolute;
+    top: -40%; right: -20%;
+    width: 320px; height: 320px;
+    border-radius: 50%;
+    background: radial-gradient(circle, var(--glow) 0%, transparent 65%);
+    opacity: 0;
+    transform: scale(0.6);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    pointer-events: none;
+  }
+  .icard:hover { border-color: rgba(255,255,255,0.1); background: var(--surface2); transform: translateY(-4px); }
+  .icard:hover::after { opacity: 0.12; transform: scale(1); }
 
-            <div class="about-inner">
-              <div class="col-md-6">
-                <img src="images/b3.jpg" class="project-img" alt="about" />
-              </div>
-              <div class="col-md-6">
-                <ul>
-                  <li><strong>Project</strong> : Sign To Speech Conversion </li>
-                  <li><strong>Team Size</strong> : 5</li>
-                  <li><strong>Publication</strong> :IEEE Conference(Submitted and Approval awaited)</li>
-                  <li><strong>Duration</strong> : Sep 2019 - Dec 2019</li>
-                  <li><strong>Technologies</strong>: CNN , Machine Learning , Comuter Vision, TensorFlow , Keras</li>
-                  <li><strong>Servers </strong>: Anaconda,Jupyter,Spyder on Windows</li>
-                </ul>
-              </div>
-            </div>
-            <div class="clearfix"></div>
-            <div class="about-inner">
-              <div class="project-title my-responsibilit">My Responsibilities</div>
-              <ul>
-                <li> Coding the Crucial Implementation Frameworks</li>
-                <li> Framing the model.</li>
-                <li> Accessing the perfect parameter for better accuracy</li>
-                <li> Frequent code reviews.</li>
-              </ul>
-            </div>
+  /* Status badge row */
+  .icard-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 10px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px 12px;
+    border-radius: 999px;
+    margin-bottom: 24px;
+    width: fit-content;
+    position: relative;
+    z-index: 1;
+  }
+  .icard-badge .bdot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    animation: blink 2s infinite;
+  }
+  .icard-badge.live   { color: var(--green); background: rgba(78,203,141,0.1); border: 1px solid rgba(78,203,141,0.25); }
+  .icard-badge.live .bdot { background: var(--green); }
+  .icard-badge.internal { color: var(--blue); background: rgba(91,143,249,0.1); border: 1px solid rgba(91,143,249,0.25); animation: none; }
+  .icard-badge.internal .bdot { background: var(--blue); animation: none; }
+  .icard-badge.cross  { color: var(--purple); background: rgba(168,85,247,0.1); border: 1px solid rgba(168,85,247,0.25); }
+  .icard-badge.cross .bdot { background: var(--purple); animation: none; }
 
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="modal ab fade" id="ckgsMdl" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog about" role="document">
-      <div class="modal-content about">
-        <div class="modal-header">
-          <span class="project-title">VISION-I(REAL-TIME OBJECT DETECTION for BLINDS) </span>
-          <button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        </div>
-        <div class="modal-body about">
-          <div class="about">
+  /* NUMBER + LABEL row — same line, never wraps */
+  .icard-num-row {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.4s cubic-bezier(.22,.61,.36,1);
+    min-width: 0;
+  }
+  .icard:hover .icard-num-row { transform: translateX(5px); }
 
-            <div class="about-inner">
-              <div class="col-md-6">
-                <img src="images/b3.jpg" class="project-img" alt="about" />
-              </div>
-              <div class="col-md-6">
-                <ul>
-                  <li><strong>Project</strong> : VISION-I: Real Time Blind Assistance System   </li>
-                  <li><strong>Team Size</strong> : 5</li>
-                  <li><strong>Publication</strong> : Springer(ICMLIP) Conference</li>
-                  <li><strong>Duration</strong> : Apr 2020 - May 2020</li>
-                  <li><strong>Technologies</strong>: SSD DETECTION,COCO DATASETS, TensorFlow, Keras, Computer Vision  </li>
-                  <li><strong>Libraries</strong>: NUMPY ,MATPLOTLIB, PYTORCH, PYTESSERACT, </li>
-                  <li><strong>BLOG LINK </strong>: <a href="https://medium.com/beingryaan/real-time-object-detection-along-with-distance-and-voice-alerts-for-blinds-a-blind-assistance-1708b97c3ecc ">CLICK HERE</a></li>
-                    <li><strong>YOUTUBE EXPLANATION</strong>: <a href="https://www.youtube.com/playlist?list=PLYGwl7T4aureAEr8qgk-97ZOnSQosZtRc ">CLICK HERE</a></li>
-                  <li><strong>Platform</strong> : Windows,Ananconda,Jupyter,Spyder</li>  
-                </ul>
-              </div>
-            </div>
-            <div class="clearfix"></div>
-            <div class="about-inner">
-              <div class="project-title my-responsibilit tex-align-left">Description </div>
-                <p class="text-align-left">The system is set up in such a way where an android application(assuming you are implementing it on a android device) will capture real-time frames and will send it to a laptop based Networked Server where all the computations take place.The Laptop Based Server will be using a pre-trained SSD detection model trained on COCO DATASETS. It will then test and the output class will get detected with an accuracy metrics.
-                </p>
-                <p class="text-align-left">After testing with the help of voice modules the class of the object will be converted into a default voice notes which will then be sent to the blind victims for their assistance. </p>
-                <p>Along with the object detection , we have used an alert system where approximate distance will get calculated. If that Blind Person is very close to the frame or is far away at a safer place , it will generate voice-based outputs along with distance units.. </p>
-                  <p class="text-align-left">The real project will have in depth and adequate functionalism compared to the above synopsis.</p>
+  /* THE BIG NUMBER */
+  .icard-num {
+    font-family: var(--font-head);
+    font-size: clamp(44px, 4.5vw, 62px);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: var(--glow);
+    flex-shrink: 0;
+  }
 
-              </div>
-              <div class="project-title my-responsibilit">My Responsibilities</div>
-              <ul>
-                <li> Core Coding Implementation Framework</li>
-                <li> Model Analysis w.r.t better system performance</li>
-                <li> Leading the Group and Effecient Work Distribution</li>
-                <li> Work in accordance with the above mentioned libraries, integrate them in our framework , to generate accuracy </li>
-                <li> Frequent code reviews.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-<div class="modal ab fade" id="cktsMdl" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog about" role="document">
-        <div class="modal-content about">
-          <div class="modal-header">
-            <span class="project-title">Construction Site Accident Analysis-IIT KGP PROJECT</span>
-            <button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          </div>
-          <div class="modal-body about">
-            <div class="about">
+  /* IMPACT LABEL — inline beside the number, prominent */
+  .icard-impact-label {
+    font-family: var(--font-head);
+    font-size: clamp(12px, 1.2vw, 16px);
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--glow);
+    opacity: 0.85;
+    line-height: 1.2;
+    padding-left: 14px;
+    border-left: 2px solid var(--glow);
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  /* Card title */
+  .icard-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+    line-height: 1.3;
+  }
+
+  /* Card body text */
+  .icard-body {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.8;
+    max-width: 44ch;
+    position: relative;
+    z-index: 1;
+    flex: 1;
+  }
+
+  /* BADGE: live / internal tags shown at top */
+  .ptag {
+    display: inline-flex; align-items: center; gap: 6px;
+    font-size: 11px; letter-spacing: 0.05em; text-transform: uppercase;
+    color: var(--green); background: rgba(78,203,141,0.1);
+    border: 1px solid rgba(78,203,141,0.25);
+    padding: 4px 12px; border-radius: 999px;
+  }
+  .ptag.internal { color: var(--blue); background: rgba(91,143,249,0.1); border-color: rgba(91,143,249,0.25); }
+  .ptag.college  { color: var(--purple); background: rgba(168,85,247,0.1); border-color: rgba(168,85,247,0.25); }
+
+  /* FEATURED PROJECT */
+  .badge-pill { display:inline-flex; align-items:center; gap:8px; background:rgba(78,203,141,0.1); border:1px solid rgba(78,203,141,0.25); color:var(--green); font-size:11px; letter-spacing:0.05em; text-transform:uppercase; padding:6px 16px; border-radius:999px; margin-bottom:20px; }
+  .badge-pill .dot { width:6px; height:6px; border-radius:50%; background:var(--green); animation:blink 2s infinite; }
+  .badge-pill.purple { background:rgba(168,85,247,0.1); border-color:rgba(168,85,247,0.25); color:var(--purple); }
+  .badge-pill.purple .dot { background:var(--purple); animation:none; }
+  .badge-pill.gold { background:rgba(240,165,0,0.1); border-color:rgba(240,165,0,0.25); color:var(--gold); }
+  .badge-pill.gold .dot { background:var(--gold); animation:none; }
+
+  .feature-project { background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:40px; margin-bottom:14px; transition:border-color 0.2s; }
+  .feature-project:hover { border-color:var(--border2); }
+  .feature-project h3 { font-family:var(--font-head); font-size:28px; font-weight:800; color:var(--white); margin-bottom:14px; }
+  .feature-project p { font-size:14px; color:var(--body); line-height:1.9; max-width:760px; margin-bottom:20px; }
+  .tech-row { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:24px; }
+  .ttag { background:var(--surface2); border:1px solid var(--border); color:var(--body); font-size:11px; padding:5px 14px; border-radius:999px; }
+  .feature-actions { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:28px; }
+  .feature-stats { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+  .fstat { background:var(--surface2); border:1px solid var(--border); border-radius:12px; padding:18px; text-align:center; }
+  .fstat-val { font-family:var(--font-head); font-size:22px; font-weight:800; line-height:1; }
+  .fstat-lbl { font-size:10px; letter-spacing:0.06em; text-transform:uppercase; color:var(--muted); margin-top:6px; }
+
+  /* SMALLER PROJECT CARDS */
+  .proj-row { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+  .proj-mini { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:26px; display:flex; flex-direction:column; transition:border-color 0.2s; }
+  .proj-mini:hover { border-color:var(--border2); }
+  .proj-top { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; margin-bottom:16px; }
+  .proj-mini-top { display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:14px; gap:8px; }
+  .proj-mini-icon { width:38px; height:38px; border-radius:9px; background:var(--surface2); border:1px solid var(--border); display:flex; align-items:center; justify-content:center; font-size:17px; flex-shrink:0; }
+  .ptag.live   { color:var(--green);  background:rgba(78,203,141,0.1); border:1px solid rgba(78,203,141,0.25); }
+  .ptag.research { color:var(--gold); background:rgba(240,165,0,0.1); border:1px solid rgba(240,165,0,0.25); }
+  .proj-mini h4 { font-family:var(--font-head); font-size:16px; font-weight:700; color:var(--white); margin-bottom:8px; }
+  .proj-mini p { font-size:12px; color:var(--muted); line-height:1.75; flex:1; }
+  .proj-mini-stats { display:flex; gap:8px; margin-top:16px; }
+  .pmstat { background:var(--surface2); border:1px solid var(--border); border-radius:8px; padding:9px 10px; text-align:center; flex:1; }
+  .pmstat-val { font-family:var(--font-head); font-size:14px; font-weight:800; }
+  .pmstat-lbl { font-size:9px; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted); margin-top:2px; }
+
+  /* JOURNEY */
+  .journey-hint { display:inline-flex; align-items:center; gap:8px; background:var(--surface); border:1px solid var(--border); border-radius:999px; padding:8px 18px; font-size:12px; color:var(--muted); margin-bottom:36px; }
+  .journey-layout { display:grid; grid-template-columns:300px 1fr; gap:24px; }
+  .tl-list { display:flex; flex-direction:column; gap:8px; }
+  .tl-item { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:14px 18px; cursor:pointer; transition:border-color 0.2s, background 0.2s; display:flex; align-items:center; justify-content:space-between; gap:8px; }
+  .tl-item:hover { border-color:var(--border2); }
+  .tl-item.active { background:rgba(107,122,255,0.12); border-color:rgba(107,122,255,0.4); }
+  .tl-date { font-size:11px; color:var(--label); font-weight:500; margin-bottom:3px; }
+  .tl-role { font-size:14px; font-weight:600; color:var(--white); }
+  .tl-co { font-size:12px; color:var(--muted); margin-top:2px; }
+  .tl-arrow { color:var(--muted); font-size:14px; flex-shrink:0; }
+  .jd-panel { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:36px; display:none; min-height:380px; }
+  .jd-panel.active { display:block; }
+  .jd-co { font-size:15px; font-weight:600; color:var(--label); margin-bottom:3px; }
+  .jd-date { font-size:12px; color:var(--muted); margin-bottom:14px; }
+  .jd-badge { display:inline-flex; align-items:center; gap:6px; background:rgba(78,203,141,0.1); border:1px solid rgba(78,203,141,0.25); color:var(--green); font-size:11px; padding:4px 12px; border-radius:999px; margin-bottom:18px; }
+  .jd-badge .dot { width:6px; height:6px; border-radius:50%; background:var(--green); animation:blink 2s infinite; }
+  .jd-panel h3 { font-family:var(--font-head); font-size:24px; font-weight:800; color:var(--white); margin-bottom:4px; }
+  .jd-highlight { font-size:12px; color:var(--label); font-style:italic; margin-bottom:18px; }
+  .jd-quote { border-left:2px solid var(--label); padding:14px 18px; background:rgba(107,122,255,0.05); border-radius:0 8px 8px 0; font-size:13px; color:var(--body); line-height:1.85; margin:18px 0; 
+  background: rgba(139, 92, 246, 0.05); 
   
-              <div class="about-inner">
-                <div class="col-md-6">
-                  <img src="images/b3.jpg" class="project-img" alt="about" />
-                </div>
-                <div class="col-md-6">
-                  <ul>
-                    <li><strong>Project</strong> : Construction Site Accident Analysis
-                    <li><strong>Publication</strong> : None</li>
-                    <li><strong>Duration</strong> : August 2020-Present</li>
-                    <li><strong>Technologies</strong>:Natural Language Processing,Attention,Keras, GloVe,Tensorflow  </li>
-                    <li><strong>Platform</strong> : Jupyter</li>  
-                  </ul>
-                </div>
-              </div>
-              <div class="clearfix"></div>
-              <div class="about-inner">
-                <div class="project-title my-responsibilit tex-align-left">Description </div>
-                  <p class="text-align-left">Construction Site Accident Analysis to analyse the reason for on-site Construction accidents. Rule based Chunker has been built to chunk out dangerous objects involved in Accidents.  
-                  </p>
-                  <p class="text-align-left">Dataset has been imported from OSHA. </p>
-                </div>
-                <div class="project-title my-responsibilit">My Responsibilities</div>
-                <ul>
-                  <li> Core Coding Implementation Framework</li>
-                  <li> Preprocessing the textual corpus and model building</li>
-                  <li> Implemented the Attention Layer for better accuracy and elininate overfitting conditions.</li>
-                  <li> Worked in accordance with the above mentioned strategies to integrate in a single framework. </li>
-                  <li> Frequent code reviews.</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+  }
+  .jd-tags { display:flex; flex-wrap:wrap; gap:8px; margin-top:0px; margin-bottom:20px;}
+  .jtag { background:var(--surface2); border:1px solid var(--border); color:var(--body); font-size:11px; padding:5px 13px; border-radius:999px; }
+
+  /* SKILLS — DUAL IDENTITY */
+  .dual-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  .dual-col { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:32px; position:relative; overflow:hidden; }
+  .dual-col::before { content:''; position:absolute; top:0; left:0; right:0; height:3px; }
+  .dual-col.backend::before { background:var(--blue); }
+  .dual-col.ai::before { background:var(--purple); }
+  .dual-head { display:flex; align-items:center; gap:14px; margin-bottom:28px; }
+  .dual-icon { width:46px; height:46px; border-radius:10px; display:flex; align-items:center; justify-content:center; font-size:20px; flex-shrink:0; }
+  .dual-col.backend .dual-icon { background:rgba(91,143,249,0.1); border:1px solid rgba(91,143,249,0.25); }
+  .dual-col.ai .dual-icon { background:rgba(168,85,247,0.1); border:1px solid rgba(168,85,247,0.25); }
+  .dual-title { font-family:var(--font-head); font-size:17px; font-weight:800; }
+  .dual-col.backend .dual-title { color:var(--blue); }
+  .dual-col.ai .dual-title { color:var(--purple); }
+  .dual-sub { font-size:11px; color:var(--muted); margin-top:2px; }
+  .dual-list { list-style:none; display:flex; flex-direction:column; gap:18px; }
+  .dual-list li { padding-left:18px; position:relative; }
+  .dual-list li::before { content:''; position:absolute; left:0; top:7px; width:6px; height:6px; border-radius:50%; }
+  .dual-col.backend .dual-list li::before { background:var(--blue); }
+  .dual-col.ai .dual-list li::before { background:var(--purple); }
+  .dual-list .skill-name { font-size:14px; font-weight:600; color:var(--white); margin-bottom:3px; }
+  .dual-list .skill-desc { font-size:12px; color:var(--muted); line-height:1.65; }
+
+  /* TOOLS & PLATFORMS */
+  .tools-card { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:32px; margin-top:12px; }
+  .tools-title { font-size:11px; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted); margin-bottom:24px; font-weight:700; }
+  .tools-cat { margin-bottom:24px; }
+  .tools-cat:last-child { margin-bottom:0; }
+  .tools-cat-label { font-size:11px; letter-spacing:0.08em; text-transform:uppercase; font-weight:700; margin-bottom:12px; }
+  .tools-cat-label.c1 { color:var(--blue); }
+  .tools-cat-label.c2 { color:var(--green); }
+  .tools-cat-label.c3 { color:var(--gold); }
+  .tools-cat-label.c4 { color:var(--purple); }
+  .tools-tags { display:flex; flex-wrap:wrap; gap:8px; }
+  .ttool { background:var(--surface2); border:1px solid var(--border); color:var(--body); font-size:12px; padding:6px 14px; border-radius:999px; }
+
+  /* CERTIFICATIONS */
+  .certs-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+  .cert-card { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:28px 24px; display:flex; flex-direction:column; align-items:flex-start; gap:14px; transition:border-color 0.2s, transform 0.2s; position:relative; overflow:hidden; }
+  .cert-card::before { content:''; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg, var(--purple), transparent); }
+  .cert-card:hover { border-color:rgba(168,85,247,0.4); transform:translateY(-2px); }
+  .cert-logo { width:48px; height:48px; border-radius:10px; background:rgba(168,85,247,0.1); border:1px solid rgba(168,85,247,0.2); display:flex; align-items:center; justify-content:center; font-size:22px; }
+  .cert-body { flex:1; }
+  .cert-provider { font-size:10px; letter-spacing:0.08em; text-transform:uppercase; color:var(--purple); margin-bottom:4px; font-weight:600; }
+  .cert-name { font-family:var(--font-head); font-size:15px; font-weight:700; color:var(--white); line-height:1.3; }
+  .cert-level { display:inline-flex; align-items:center; gap:6px; font-size:10px; letter-spacing:0.06em; text-transform:uppercase; color:var(--purple); background:rgba(168,85,247,0.1); border:1px solid rgba(168,85,247,0.2); padding:4px 10px; border-radius:999px; margin-top:8px; }
+  .cert-level::before { content:'✓'; font-size:9px; }
+
+  /* CONNECT */
+  .connect-inner { max-width:680px; margin-left:20% }
+  .connect-note { font-size:13px; color:var(--muted); font-style:italic; margin-bottom:36px; }
+  .conn-links { display:flex; gap:12px; flex-wrap:wrap; }
+  .clink { background:var(--surface); border:1px solid var(--border); color:var(--body); font-size:13px; padding:12px 22px; border-radius:999px; text-decoration:none; transition:border-color 0.2s, color 0.2s; display:inline-flex; align-items:center; gap:8px; }
+  .clink:hover { border-color:var(--label); color:var(--white); }
+
+  /* CONTACT FORM */
+  .contact-form { background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:36px; margin-top:48px; max-width:760px; }
+  .contact-form h3 { font-family:var(--font-head); font-size:20px; font-weight:800; color:var(--white); margin-bottom:8px; }
+  .contact-form > p { font-size:13px; color:var(--muted); margin-bottom:28px; line-height:1.8; }
+  .form-row { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:16px; }
+  .form-group label { font-size:10px; letter-spacing:0.07em; text-transform:uppercase; color:var(--muted); margin-bottom:8px; display:block; }
+  .form-group input, .form-group textarea { width:100%; background:var(--surface2); border:1px solid var(--border); border-radius:10px; padding:12px 14px; color:var(--white); font-family:var(--font-body); font-size:13px; }
+  .form-group input:focus, .form-group textarea:focus { outline:none; border-color:var(--label); }
+  .form-group textarea { resize:vertical; min-height:110px; }
+  .form-actions { display:flex; align-items:center; gap:18px; margin-top:8px; flex-wrap:wrap; }
+  .char-count { font-size:11px; color:var(--muted); margin-left:auto; }
+  .form-btn { background:var(--btn); color:var(--white); font-size:13px; font-weight:500; padding:12px 26px; border-radius:999px; border:none; cursor:pointer; font-family:var(--font-body); transition:background 0.2s; }
+  .form-btn:hover { background:var(--btn-h); }
+
+  /* FOOTER */
+  footer { border-top:1px solid var(--border); padding:32px 48px; text-align:center; font-size:11px; letter-spacing:0.08em; text-transform:uppercase; color:var(--muted); }
+
+  @keyframes fadeUp { from{opacity:0;transform:translateY(20px)} to{opacity:1;transform:translateY(0)} }
+  .reveal { opacity:0; transform:translateY(22px); transition:opacity 0.75s ease, transform 0.75s ease; }
+  .reveal.vis { opacity:1; transform:translateY(0); }
+  ::-webkit-scrollbar { width:3px; }
+  ::-webkit-scrollbar-track { background:var(--bg); }
+  ::-webkit-scrollbar-thumb { background:var(--border2); border-radius:2px; }
+
+  @media (max-width: 900px) {
+    .about-grid, .journey-layout, .dual-grid, .impact-grid, .acard-grid,
+    .proj-row, .feature-stats, .hero-stats, .form-row, .certs-grid {
+      grid-template-columns: 1fr !important;
+    }
+    .acard.wide { grid-column:span 1; }
+    nav { padding:14px 20px; }
+    .nav-links { display:none; }
+    section { padding:70px 20px; }
+    .icard { min-height: auto; }
+    .icard-num { font-size: clamp(48px, 12vw, 64px); }
+  }
+</style>
+</head>
+<body>
+
+<div class="cursor" id="cur"></div>
+<div class="cursor-ring" id="curR"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a href="#" class="nav-logo">Aryan Gupta</a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#impact">Impact</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#journey">Journey</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="#connect" class="nav-resume">⬇ Resume</a>
+    <a href="#connect" class="nav-cta">Let's connect</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home" style="border-top:none">
+  <div class="hero-badge">Software Engineer · Siemens Digital Industries · VIT '22</div>
+  <h1 class="hero-title">Aryan Gupta</h1>
+  <p class="hero-sub">Backend Engineer. Distributed Systems. <strong>Problem Solver.</strong></p>
+  <p class="hero-tw" id="typewriter"></p>
+  <div class="hero-actions">
+    <a href="#projects" class="btn-primary">See my work</a>
+    <a href="#connect" class="btn-ghost">Let's connect</a>
+    <a href="#" class="btn-ghost">⬇ Resume</a>
+    <a href="https://www.linkedin.com/in/aryan-gupta21/" class="btn-ghost" target="_blank">LinkedIn ↗</a>
+  </div>
+  <div class="hero-stats">
+    <div class="hstat">
+      <div class="hstat-val" style="color:var(--blue)">60%</div>
+      <div class="hstat-lbl">Latency reduction</div>
+    </div>
+    <div class="hstat">
+      <div class="hstat-val" style="color:var(--gold)">1M+</div>
+      <div class="hstat-lbl">Req/day system</div>
+    </div>
+    <div class="hstat">
+      <div class="hstat-val" style="color:var(--green)">30M+</div>
+      <div class="hstat-lbl">Records migrated live</div>
+    </div>
+    <div class="hstat">
+      <div class="hstat-val" style="color:var(--purple)">3</div>
+      <div class="hstat-lbl">AWS certifications</div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker">
+    <span class="ti">Latency reduction <span class="blue">60% · denormalized policy store</span></span><span class="ti-sep">◆</span>
+    <span class="ti">Redisson RLock <span class="gold">5–6% over-provisioning eliminated</span></span><span class="ti-sep">◆</span>
+    <span class="ti">Percona pt-osc <span class="green">30M+ rows · zero downtime</span></span><span class="ti-sep">◆</span>
+    <span class="ti">SNS/SQS sync <span class="purple">DLQs + configurable retries</span></span><span class="ti-sep">◆</span>
+    <span class="ti">POST API latency <span class="blue">-20% via observer pattern</span></span><span class="ti-sep">◆</span>
+    <span class="ti">Bulk insertion framework <span class="gold">-30% latency · adopted org-wide</span></span><span class="ti-sep">◆</span>
+    <span class="ti">NVIDIA DLRM <span class="green">0.639 accuracy · Criteo 1TB</span></span><span class="ti-sep">◆</span>
+    <span class="ti">AWS Certified <span class="purple">Solutions Architect · Developer · Practitioner</span></span><span class="ti-sep">◆</span>
+    <span class="ti">LangChain / LangGraph <span class="blue">agentic systems · in progress</span></span><span class="ti-sep">◆</span>
+    <span class="ti">GitHub <span class="gold">240+ combined stars &amp; forks</span></span><span class="ti-sep">◆</span>
+    <!-- dupe for seamless loop -->
+    <span class="ti">Latency reduction <span class="blue">60% · denormalized policy store</span></span><span class="ti-sep">◆</span>
+    <span class="ti">Redisson RLock <span class="gold">5–6% over-provisioning eliminated</span></span><span class="ti-sep">◆</span>
+    <span class="ti">Percona pt-osc <span class="green">30M+ rows · zero downtime</span></span><span class="ti-sep">◆</span>
+    <span class="ti">SNS/SQS sync <span class="purple">DLQs + configurable retries</span></span><span class="ti-sep">◆</span>
+    <span class="ti">POST API latency <span class="blue">-20% via observer pattern</span></span><span class="ti-sep">◆</span>
+    <span class="ti">Bulk insertion framework <span class="gold">-30% latency · adopted org-wide</span></span><span class="ti-sep">◆</span>
+    <span class="ti">NVIDIA DLRM <span class="green">0.639 accuracy · Criteo 1TB</span></span><span class="ti-sep">◆</span>
+    <span class="ti">AWS Certified <span class="purple">Solutions Architect · Developer · Practitioner</span></span><span class="ti-sep">◆</span>
+    <span class="ti">LangChain / LangGraph <span class="blue">agentic systems · in progress</span></span><span class="ti-sep">◆</span>
+    <span class="ti">GitHub <span class="gold">240+ combined stars &amp; forks</span></span><span class="ti-sep">◆</span>
+  </div>
+</div>
+
+<!-- IMPACT -->
+<section id="impact">
+  <div class="sec-wrap">
+    <div class="sec-label">What the system logs say</div>
+    <h2 class="sec-heading reveal">Metrics that<br>lived in production.</h2>
+    <p class="sec-sub reveal">Measured in production, every metric below came from a live system at Siemens, processing 1M+ requests a day.</p>
+
+    <div class="impact-grid reveal">
+
+      <!-- Card 1 -->
+      <div class="icard">
+        <div class="icard-badge live"><span class="bdot"></span> Live · In Production</div>
+        <div class="icard-num-row">
+          <div class="icard-num">60%</div>
+          <div class="icard-impact-label">Latency Slashed</div>
+        </div>
+        <div class="icard-title">SNS/SQS Event-Driven Policy Sync</div>
+        <div class="icard-body">Redesigned policy data access with a denormalized store, eliminating a 10K+ ID lookup bottleneck. Result: 60% off the critical path — in a live, 1M+ req/day system.</div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="icard">
+        <div class="icard-badge live"><span class="bdot"></span> Live · In Production</div>
+        <div class="icard-num-row">
+          <div class="icard-num">5–6%</div>
+          <div class="icard-impact-label">Over-Provisioning Killed</div>
+        </div>
+        <div class="icard-title">Distributed Locking — Redisson RLock</div>
+        <div class="icard-body">Implemented per-asset-ID distributed locking via Redisson RLock, eliminating concurrent over-provisioning races under burst traffic on a 1M+ req/day system.</div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="icard">
+        <div class="icard-badge internal"><span class="bdot"></span> Executed · Internal</div>
+        <div class="icard-num-row">
+          <div class="icard-num">30M+</div>
+          <div class="icard-impact-label">Zero-Downtime Migration</div>
+        </div>
+        <div class="icard-title">Live Schema alteration — Percona pt-osc</div>
+        <div class="icard-body">Led a zero-downtime schema alteration on a 30M+ record MySQL table using Percona pt-osc. Avoided 3+ hours of production downtime with zero data loss.</div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="icard">
+        <div class="icard-badge cross"><span class="bdot"></span> Cross-Team Adoption</div>
+        <div class="icard-num-row">
+          <div class="icard-num">20–30%</div>
+          <div class="icard-impact-label">POST Latency Crushed</div>
+        </div>
+        <div class="icard-title">Bulk Insertion + Observer Pipeline</div>
+        <div class="icard-body">Cut POST API latency 20% with a multi-threaded observer validation pipeline, then another 30% with a reusable bulk insertion framework — adopted across 3+ teams.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="sec-wrap">
+  <div class="sec-label">Backend Systems & Agentic AI Tracks</div>
+  <h2 class="sec-heading reveal">Backend brain.<br>Agentic AI Upskilling.</h2>
+  <p class="sec-sub reveal">Four years in production backend systems, and a research lineage that started before that — now pointed at AI agents. Same instinct: understand the system, then build it.</p>
+
+  <div class="dual-grid reveal">
+    <div class="dual-col backend">
+      <div class="dual-head">
+        <div class="dual-icon">⚙️</div>
+        <div>
+          <div class="dual-title">Backend Engineer</div>
+          <div class="dual-sub">Siemens · Java · Spring Boot · AWS</div>
         </div>
       </div>
-       <div class="modal ab fade" id="cktsMdl" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog about" role="document">
-      <div class="modal-content about">
-        <div class="modal-header">
-          <span class="project-title">PORTFOLIO WEBSITE</span>
-          <button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        </div>
-        <div class="modal-body about">
-          <div class="about">
+      <ul class="dual-list">
+        <li><div class="skill-name">Distributed Systems</div><div class="skill-desc">Redisson RLock, SNS/SQS event-driven sync, DLQs &amp; retries — at 1M+ req/day.</div></li>
+        <li><div class="skill-name">Database at Scale</div><div class="skill-desc">MySQL, PostgreSQL, Redis, Percona pt-osc for zero-downtime migrations on 30M+ rows.</div></li>
+        <li><div class="skill-name">Spring Boot &amp; APIs</div><div class="skill-desc">Greenfield services, reusable frameworks (bulk insertion, query filtering), native queries.</div></li>
+        <li><div class="skill-name">AWS Cloud</div><div class="skill-desc">EC2, S3, RDS, SQS/SNS, ElastiCache, CloudWatch — 3x AWS certified.</div></li>
+        <li><div class="skill-name">Concurrency &amp; Performance</div><div class="skill-desc">Multi-threaded validation pipelines, observer pattern, JMeter load testing.</div></li>
+      </ul>
+    </div>
 
-            <div class="about-inner">
-              <div class="col-md-6">
-                <img src="images/b3.jpg" class="project-img" alt="about" />
-              </div>
-              <div class="col-md-6">
-                <ul>
-                  <li><strong>Project</strong> : PORTFOLIO WEBSITE
-                  <li><strong>Publication</strong> : None</li>
-                  <li><strong>Duration</strong> : May 2020</li>
-                  <li><strong>Technologies</strong>: HTML,CSS,BOOTSTRAP  </li>
-                  <li><strong>Platform</strong> : Windows,GIT,GitHub</li>  
-                </ul>
-              </div>
-            </div>
-            <div class="clearfix"></div>
-            <div class="about-inner">
-              <div class="project-title my-responsibilit tex-align-left">Description </div>
-                <p class="text-align-left">The system is set up in such a way that a person can use this under MIT License. This is just by adding a forked version of this repository and clone it by the required changes in HTML CODE.
-                </p>
-                <p class="text-align-left">After the desired changes in the UI and that of the HTML index File's Codes,the Website can then be hosted on GitHub portal. </p>
-              </div>
-              <div class="project-title my-responsibilit">My Responsibilities</div>
-              <ul>
-                <li> Core Coding Implementation Framework</li>
-                <li>  Analysing the necessary Templates Required</li>
-                <li> Generating Frontend Designing Animations</li>
-                <li> Worked in accordance with the above mentioned strategies to integrate in a single framework. </li>
-                <li> Frequent code reviews.</li>
-              </ul>
-            </div>
+    <div class="dual-col ai">
+      <div class="dual-head">
+        <div class="dual-icon">🤖</div>
+        <div>
+          <div class="dual-title">AI / Agentic Systems</div>
+          <div class="dual-sub">NVIDIA · Research · LangChain &amp; LangGraph</div>
+        </div>
+      </div>
+      <ul class="dual-list">
+        <li><div class="skill-name">LangChain / LangGraph</div><div class="skill-desc">Currently building agentic workflows — chaining tools, memory, and reasoning loops.</div></li>
+        <li><div class="skill-name">Model Context Protocol</div><div class="skill-desc">Currently learning Model Context Protocols for agents.</div></li>
+        <li><div class="skill-name">Recommendation Systems</div><div class="skill-desc">DLRM on Criteo 1TB with Merlin &amp; NVTabular at NVIDIA — 0.639 accuracy, GPU benchmarking.</div></li>
+        <li><div class="skill-name">Natural Language Processing</div><div class="skill-desc">TF-IDF, word embeddings, attention-based hybrid architectures (F1: 0.88) at IIT Kharagpur.</div></li>
+        <li><div class="skill-name">Deep Learning &amp; CNNs</div><div class="skill-desc">96–98% accuracy CNN models for sign language and object detection, published research.</div></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="tools-card reveal">
+    <div class="tools-title">Tools &amp; Platforms</div>
+    <div class="tools-cat">
+      <div class="tools-cat-label c1">Languages</div>
+      <div class="tools-tags"><span class="ttool">Java</span><span class="ttool">C++</span><span class="ttool">Python</span></div>
+    </div>
+    <div class="tools-cat">
+      <div class="tools-cat-label c2">Cloud &amp; Infrastructure</div>
+      <div class="tools-tags"><span class="ttool">AWS EC2</span><span class="ttool">S3</span><span class="ttool">RDS</span><span class="ttool">SQS / SNS</span><span class="ttool">ElastiCache</span><span class="ttool">CloudWatch</span><span class="ttool">Percona</span></div>
+    </div>
+    <div class="tools-cat">
+      <div class="tools-cat-label c3">Databases</div>
+      <div class="tools-tags"><span class="ttool">MySQL</span><span class="ttool">PostgreSQL</span><span class="ttool">Redis</span></div>
+    </div>
+    <div class="tools-cat">
+      <div class="tools-cat-label c4">AI / ML &amp; Agentic</div>
+      <div class="tools-tags"><span class="ttool">LangChain</span><span class="ttool">LangGraph</span><span class="ttool">Model Context Protocol (MCP)</span><span class="ttool">TensorFlow</span><span class="ttool">NVTabular</span><span class="ttool">Merlin</span><span class="ttool">CNN / NLP</span></div>
+    </div>
+    <div class="tools-cat">
+      <div class="tools-cat-label c1">Web &amp; Tooling</div>
+      <div class="tools-tags"><span class="ttool">Angular</span><span class="ttool">HTML</span><span class="ttool">CSS</span><span class="ttool">JMeter</span><span class="ttool">JUnit</span><span class="ttool">SonarQube</span><span class="ttool">Git</span></div>
+    </div>
+    <div class="tools-cat">
+      <div class="tools-cat-label c2">AWS Certifications</div>
+      <div class="certs-grid reveal" id="certifications">
+        <div class="cert-card">
+          <div class="cert-logo">☁️</div>
+          <div class="cert-body">
+            <div class="cert-provider">Amazon Web Services</div>
+            <div class="cert-name">Solutions Architect Associate</div>
+            <div class="cert-level">Certified</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-logo">⚙️</div>
+          <div class="cert-body">
+            <div class="cert-provider">Amazon Web Services</div>
+            <div class="cert-name">Developer Associate</div>
+            <div class="cert-level">Certified</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-logo">🌩️</div>
+          <div class="cert-body">
+            <div class="cert-provider">Amazon Web Services</div>
+            <div class="cert-name">Cloud Practitioner</div>
+            <div class="cert-level">Certified</div>
           </div>
         </div>
       </div>
     </div>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
   </div>
- 
-      
-      
-      
-      
-      
-      
-      
-  <!-- //blog-pop-->
+  </div><!-- /sec-wrap -->
+</section>
 
-  <!-- /header -->
-  <div class="footer" id="contact">
-    <div class="container">
-      <div class="service-head one text-center">
-        <h4>CONTACT ME</h4>
-        <h3>GET <span>IN TOUCH WITH ME</span></h3>
-        <span class="border two"></span>
-      </div>
-      <div class="mail_us">
-        <div class="col-md-6 mail_left">
-          <div class="contact-grid1-left">
-            <div class="contact-grid1-left1">
-              <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-              <h4>Contact By Email</h4>
-              <ul>
-                <li>Primary: <a href="mailto:aryan.gupta18@vit.edu">aryan.gupta18@vit.edu</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="contact-grid1-left">
-            <div class="contact-grid1-left1">
-              <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-              <h4>Contact By Mobile</h4>
-              <ul>
-                <li>Mobile: +91 6263293478</li>
-              </ul>
-            </div>
-          </div>
-          <div class="contact-grid1-left">
-            <div class="contact-grid1-left1">
-              <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-              <h4>Looking For Address</h4>
-              <ul>
-                <li>Address: Vishwakarma Institute of Technology</li>
-                <li>666, Upper Indiranagar, Bibwewadi, Pune, Maharashtra,INDIA-411037</li>
-              </ul>
-            </div>
-          </div>
-          <div class="clearfix"> </div>
-        </div>
-        <div class="col-md-6 mail_right">
-          <form action="#" method="post">
-            <input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}"
-              required="">
-            <input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}"
-              required="">
-            <input type="text" name="Mobile number" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}"
-              required="">
-            <textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-            <input type="submit" value="Send">
+<!-- JOURNEY -->
+<section id="journey">
+  <div class="sec-wrap">
+  <div class="sec-label">How I got here</div>
+  <h2 class="sec-heading reveal">From research labs<br>to production systems.</h2>
+  <p class="sec-sub reveal">From building recommendation systems at NVIDIA to optimizing latency on backend services handling 1M+ requests a day — every stop added a layer.</p>
+  <div class="journey-hint reveal">👆 Tap each role to explore</div>
 
-          </form>
-        </div>
-        <div class="clearfix"></div>
+  <div class="journey-layout reveal">
+    <div class="tl-list" id="tlList">
+      <div class="tl-item active" data-i="0"><div><div class="tl-date">July 2022 – Present</div><div class="tl-role">Software Engineer</div><div class="tl-co">Siemens Digital Industries</div></div><span class="tl-arrow">→</span></div>
+      <div class="tl-item" data-i="1"><div><div class="tl-date">Feb – June 2022</div><div class="tl-role">Software Intern</div><div class="tl-co">Siemens Digital Industries</div></div><span class="tl-arrow">→</span></div>
+      <div class="tl-item" data-i="2"><div><div class="tl-date">May 2021 – Jan 2022</div><div class="tl-role">Deep Learning Intern</div><div class="tl-co">NVIDIA · Bangalore</div></div><span class="tl-arrow">→</span></div>
+      <div class="tl-item" data-i="3"><div><div class="tl-date">Aug 2020 – Oct 2020</div><div class="tl-role">Natural Language Processing Intern</div><div class="tl-co">IIT Kharagpur</div></div><span class="tl-arrow">→</span></div>
+	  <div class="tl-item" data-i="4"><div><div class="tl-date">Sept 2020 – Mar 2021</div><div class="tl-role">Deep Learning Intern</div><div class="tl-co">Tata Communications</div></div><span class="tl-arrow">→</span></div>  
+	  <div class="tl-item" data-i="5"><div><div class="tl-date">2018 – 2022</div><div class="tl-role">B.Tech, Information Technology</div><div class="tl-co">Vishwakarma Institute of Technology</div></div><span class="tl-arrow">→</span></div>
+    </div>
+
+    <div id="jdPanels">
+      <div class="jd-panel active" data-i="0">
+        <h3>Software Engineer — Distributed Systems &amp; Backend</h3>
+        <div class="jd-co">Siemens Digital Industries Software, Pune</div>
+        <div class="jd-date">July 2022 – Present</div>
+        <div class="jd-badge"><span class="dot"></span> Current role</div>
+		<div class="jd-tags"><span class="jtag">Java</span><span class="jtag">Spring Boot</span><span class="jtag">Redisson RLock</span><span class="jtag">AWS SNS/SQS</span><span class="jtag">MySQL</span><span class="jtag">Percona pt-osc</span></div>
+        <div class="jd-highlight">60% latency cut · 30M+ row migration · Redisson distributed locking · 1M+ req/day</div>     
+        <p>Own backend infrastructure for distributed services on Java &amp; Spring Boot — distributed locking via Redisson RLock, denormalized policy data access, SNS/SQS event-driven sync with DLQs, and zero-downtime schema migrations on MySQL using Percona pt-osc.</p>
+        <div class="jd-quote" style="border-left:2px solid var(--purple)">
+		<p>- Implemented distributed locks via Redisson RLock,
+1M+ req/day, <b>eliminating 5–6% concurrent overprovisioning</b> under burst traffic.</p>
+		<p>- Redesigned policy data access using a denormalized store, removing a 10K+ ID lookup bottleneck and <b>cutting latency by 60%.</b></p>
+		<p>- Architected <b>SNS/SQS-based</b> event-driven sync for policy
+store consistency, with DLQs and configurable retries for fault
+tolerance.</p>
+		<p>- Led zero-downtime schema alteration on a <b>30M+ record table</b>
+using Percona pt-osc, avoiding <b>3 hours of production downtime</b></p>
+<p>- Reduced POST API <b>latency by 20%</b> via <b>multi-threaded</b> validation pipeline using the <b>observer pattern</b> for large payloads.</p>	
+</div>
       </div>
-      <div class="copy_right text-center">
-        <p class="float-left">&copy; MAY 2020 Profile of ARYAN GUPTA</p>
+	  
+	  
+	  
+      <div class="jd-panel" data-i="1">
+        <h3>Software Intern</h3>
+        <div class="jd-co">Siemens Digital Industries Software, Pune</div>
+        <div class="jd-date">Feb 2022 – June 2022</div>
+		<div class="jd-tags"><span class="jtag">Angular</span><span class="jtag">Java</span><span class="jtag">JUnit</span><span class="jtag">SonarQube</span></div>
+        <p>Developed interactive data grid components with filtering and pagination in Angular. Implemented chart rendering and notification popup features in dialog boxes, resolving 6 UI bugs across the application.</p>
+        <div class="jd-quote">
+		<p>- Developed an interactive data grid components, with filtering
+and pagination in Angular Framework.</p>
+		<p>-  Implemented chart rendering and notification popup features
+in Angular dialog boxes; resolved 6 UI bugs across the application.</p>
+		<p>-  Added JUnit tests and resolved SonarQube flagged bugs, code
+smells, improving overall code quality by 15%.</p>
+</div>
         
-        <ul class="hero__social">
-          <li>
-            <a href="https://github.com/beingaryan" rel="noopener" target="_blank" title="GitHub">
-              <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                <path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z"></path>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/aryan-gupta-6a9201191/" rel="noopener" target="_blank" title='LinkedIn'>
-              <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-                <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path>
-              </svg>
-            </a>
-          </li>
-          <li>
-            <a href="https://medium.com/beingryaan" rel="noopener" target="_blank" title="MEDIUMS BLOG">
-                
-                <svg height="22" width="112" viewBox="0 0 111.5 22" class="aj"><path d="M56.3 19.5c0 .4 0 .5.3.7l1.5 1.4v.1h-6.5V19c-.7 1.8-2.4 3-4.3 3-3.3 0-5.8-2.6-5.8-7.5 0-4.5 2.6-7.6 6.3-7.6 1.6-.1 3.1.8 3.8 2.4V3.2c0-.3-.1-.6-.3-.7l-1.4-1.4V1l6.5-.8v19.3zm-4.8-.8V9.5c-.5-.6-1.2-.9-1.9-.9-1.6 0-3.1 1.4-3.1 5.7 0 4 1.3 5.4 3 5.4.8.1 1.6-.3 2-1zm9.1 3.1V9.4c0-.3-.1-.6-.3-.7l-1.4-1.5v-.1h6.5v12.5c0 .4 0 .5.3.7l1.4 1.4v.1h-6.5zm-.2-19.2C60.4 1.2 61.5 0 63 0c1.4 0 2.6 1.2 2.6 2.6S64.4 5.3 63 5.3a2.6 2.6 0 0 1-2.6-2.7zm22.5 16.9c0 .4 0 .5.3.7l1.5 1.4v.1h-6.5v-3.2c-.6 2-2.4 3.4-4.5 3.4-2.9 0-4.4-2.1-4.4-6.2 0-1.9 0-4.1.1-6.5 0-.3-.1-.5-.3-.7L67.7 7v.1H74v8c0 2.6.4 4.4 2 4.4.9-.1 1.7-.6 2.1-1.3V9.5c0-.3-.1-.6-.3-.7l-1.4-1.5v-.2h6.5v12.4zm22 2.3c0-.5.1-6.5.1-7.9 0-2.6-.4-4.5-2.2-4.5-.9 0-1.8.5-2.3 1.3.2.8.3 1.7.3 2.5 0 1.8-.1 4.2-.1 6.5 0 .3.1.5.3.7l1.5 1.4v.1H96c0-.4.1-6.5.1-7.9 0-2.7-.4-4.5-2.2-4.5-.9 0-1.7.5-2.2 1.3v9c0 .4 0 .5.3.7l1.4 1.4v.1h-6.5V9.5c0-.3-.1-.6-.3-.7l-1.4-1.5v-.2h6.5v3.1a4.6 4.6 0 0 1 4.6-3.4c2.2 0 3.6 1.2 4.2 3.5.7-2.1 2.7-3.6 4.9-3.5 2.9 0 4.5 2.2 4.5 6.2 0 1.9-.1 4.2-.1 6.5-.1.3.1.6.3.7l1.4 1.4v.1h-6.6zm-81.4-2l1.9 1.9v.1h-9.8v-.1l2-1.9c.2-.2.3-.4.3-.7V7.3c0-.5 0-1.2.1-1.8L11.4 22h-.1L4.5 6.8c-.1-.4-.2-.4-.3-.6v10c-.1.7 0 1.3.3 1.9l2.7 3.6v.1H0v-.1L2.7 18c.3-.6.4-1.3.3-1.9v-11c0-.5-.1-1.1-.5-1.5L.7 1.1V1h7l5.8 12.9L18.6 1h6.8v.1l-1.9 2.2c-.2.2-.3.5-.3.7v15.2c0 .2.1.5.3.6zm7.6-5.9c0 3.8 1.9 5.3 4.2 5.3 1.9.1 3.6-1 4.4-2.7h.1c-.8 3.7-3.1 5.5-6.5 5.5-3.7 0-7.2-2.2-7.2-7.4 0-5.5 3.5-7.6 7.3-7.6 3.1 0 6.4 1.5 6.4 6.2v.8h-8.7zm0-.8h4.3v-.8c0-3.9-.8-4.9-2-4.9-1.4.1-2.3 1.6-2.3 5.7z"></path></svg>
-             
-                  
-              </svg>
-            </a>
-          </li>
-        </ul>
+      </div>
+	  
+	  
+      <div class="jd-panel" data-i="2">
+        <h3>Deep Learning Intern</h3>
+        <div class="jd-co">NVIDIA · Bangalore</div>
+        <div class="jd-date">May 2021 – Jan 2022</div>
+		<div class="jd-tags"><span class="jtag">DLRM</span><span class="jtag">Merlin</span><span class="jtag">NVTabular</span><span class="jtag">Criteo 1TB</span><span class="jtag">GPU</span></div>
+        <p>Trained DLRM architecture on the Criteo 1TB dataset, achieving 0.639 accuracy over 10K iterations using Merlin and NVTabular. Implemented feature engineering and embedding layers on raw clickstream data.</p>
+        
+		<div class="jd-quote" style="border-left:2px solid var(--green)">
+		
+		<p>- Trained DLRM architecture on Criteo 1TB dataset achieving
+0.639 accuracy over 10K iterations</p>
+		<p>- Implemented feature engineering techniques, embedding layers, on raw clickstream data</p>
+		<p>- Benchmarked 3 popular recommendation system architectures
+against DLRM on GPU, published comparative training statistics as blogs.</p>
+		
+        
+		</div>
+		
+      </div>
+	  
+	  
+	   <div class="jd-panel" data-i="3">
+        <h3>NLP Research Intern</h3>
+        <div class="jd-co">Centre of Excellence in Safety Engineering &amp; Analytics, IIT Kharagpur</div>
+        <div class="jd-date">Aug 2020 – Oct 2020</div>
+		<div class="jd-tags"><span class="jtag">NLP</span><span class="jtag">TF-IDF</span><span class="jtag">Word Embeddings</span><span class="jtag">Attention Layers</span><span class="jtag">F1: 0.88</span></div>
+        <p>Worked in the field of Natural Language Processing at Centre of Excellence in Safety Engineering and Analytics, IIT-KGP. </p>
+		
+		
+        <div class="jd-quote" style="border-left:2px solid var(--gold)">
+		 <p>- Worked in the field of Natural Language Processing at Centre of Excellence in Safety Engineering and Analytics, IIT-KGP. </p>
+        <p>- Analyzed Construction Site Catastrophe reports by applying chunking, TF-IDF vectorization, word embeddings to classify causes of accidents and chunk out fatal objects. </p>
+        <p>- Proposed a Hybrid Neural Network Architecture with Attention Layers with an F1 score of 0.88.</p>
+		</div>
+		
+      </div>
+	  
+	  
+	  
+      <div class="jd-panel" data-i="4">
+        <h3>Computer Vision Intern</h3>
+        <div class="jd-co">Corporate Venturing &amp; Innovation Group, Tata Communications</div>
+        <div class="jd-date">Sept 2020 – Mar 2021</div>
+		<div class="jd-tags"><span class="jtag">Computer Vision</span><span class="jtag">CNNs</span><span class="jtag">Face Detection</span><span class="jtag">VGG-16</span><span class="jtag">MobileNetV2</span></div>
+        <p>Worked across computer vision, RNNs, and data science — predicting cloud failure on Google Cluster Traces data, and building a compact face-mask detection model optimised for low latency.</p>
+        <div class="jd-quote" style="border-left:2px solid var(--green)">
+		<p>- Working in the field of Computer Vision, CNNs, Data Science at Corporate Venturing and Innovation Group, Tata Communications.</p>
+		<p>- Worked on building a compact Face-Mask Detection model with low latency.</p>
+		<p>- The proposed model outperforms VGG-16, MobilenetV2 architectures.</p>
+		</div>
+        
+      </div>
+	  
+	  
+
+	  
+	  
+      <div class="jd-panel" data-i="5">
+        <h3>B.Tech in Information Technology</h3>
+        <div class="jd-co">Vishwakarma Institute of Technology, Pune</div>
+        <div class="jd-date">2018 – 2022 · CGPA: 8.62</div>
+		<div class="jd-tags"><span class="jtag">Python</span><span class="jtag">C++</span><span class="jtag">Data Structures</span><span class="jtag">Deep Learning</span></div>
+        <p>Foundation in algorithms, data structures, and systems thinking — the launchpad for everything that followed. Spent the latter half of college alternating between ML research internships and building open-source projects.</p>
+        <div class="jd-quote" style="border-left:2px solid var(--purple)">
+		<p>- Cracked multiple off-campus internships at Big Techs that shaped how I think about systems at scale from scratch from the very begining.</p>
+		<p>- Built two open-source projects - Sign Language to Speech, and Blind Assistance System.</p>
+		<p>- Published research papers along coursework.</p>
+        
       </div>
     </div>
   </div>
-  <!-- //footer -->
-  <!-- /container -->
-  <a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-  <!--start-smooth-scrolling-->
-  <script type="text/javascript">
-    $(document).ready(function () {
-      /*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear'
-								 		};
-										*/
-      $('.progress .progress-bar').css("width",
-        function () {
-          return $(this).attr("aria-valuenow") + "%";
-        }
-      );
-      $().UItoTop({
-        easingType: 'easeOutQuart'
-      });
+  </div><!-- /sec-wrap -->
+</section>
 
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="sec-wrap">
+  <div class="sec-label">Built &amp; shipped</div>
+  <h2 class="sec-heading reveal">Built in college.<br>Still running.</h2>
+  <p class="sec-sub reveal">Two open-source projects with real community traction, three published research papers — built before I had a job, still cited and starred today.</p>
+
+  <div class="reveal">
+    <div class="feature-project">
+      <div class="badge-pill"><span class="dot"></span> Open Source · Live on GitHub</div>
+      <h3>Blind Assistance System</h3>
+      <p>Real-time object detection for visually impaired users using TensorFlow Object Detection API and SSD architecture on a live webcam feed, achieving 98% accuracy. Estimated object proximity using bounding-box area ratio and delivered real-time audio alerts — published in Springer Journal.</p>
+      <div class="tech-row">
+        <span class="ttag">TensorFlow</span><span class="ttag">SSD Architecture</span><span class="ttag">Object Detection</span><span class="ttag">Python</span><span class="ttag">Audio Output</span><span class="ttag">Springer Journal</span>
+      </div>
+      <div class="feature-actions">
+        <a href="https://github.com/beingaryan/Blind-Assistance-Object-Detection-and-Navigation" class="btn-ghost" target="_blank">GitHub ↗</a>
+		<a href="https://www.youtube.com/watch?v=3BXIuU2AcGg" class="btn-ghost" target="_blank">YouTube ↗</a>
+      </div>
+      <div class="feature-stats">
+        <div class="fstat"><div class="fstat-val" style="color:var(--gold)">60K</div><div class="fstat-lbl">YouTube Views</div></div>
+        <div class="fstat"><div class="fstat-val" style="color:var(--blue)">124</div><div class="fstat-lbl">GitHub Forks</div></div>
+        <div class="fstat"><div class="fstat-val" style="color:var(--green)">95</div><div class="fstat-lbl">GitHub Stars</div></div>
+        <div class="fstat"><div class="fstat-val" style="color:var(--purple)">98%</div><div class="fstat-lbl">Accuracy</div></div>
+      </div>
+    </div>
+
+    <div class="proj-row">
+      <div class="proj-mini">
+        <div class="proj-mini-top">
+          <div class="proj-mini-icon">🤟</div>
+          <span class="ptag live">Open Source</span>
+        </div>
+        <h4>Sign Language to Speech</h4>
+        <p>CNN-based sign language classifier using TensorFlow translating static ASL gestures to speech output. Published in IJNGC.</p>
+        <div class="proj-mini-stats">
+          <div class="pmstat"><div class="pmstat-val" style="color:var(--blue)">100</div><div class="pmstat-lbl">Forks</div></div>
+          <div class="pmstat"><div class="pmstat-val" style="color:var(--green)">140</div><div class="pmstat-lbl">Stars</div></div>
+          <div class="pmstat"><div class="pmstat-val" style="color:var(--gold)">96%</div><div class="pmstat-lbl">Accuracy</div></div>
+        </div>
+      </div>
+      <div class="proj-mini">
+        <div class="proj-mini-top">
+          <div class="proj-mini-icon">🏗️</div>
+          <span class="ptag research">Elsevier Journal</span>
+        </div>
+        <h4>CCNet — Accident Classification</h4>
+        <p>Proposed the CCNet model for construction site accident classification — a deep learning architecture that classifies accident types and root causes from visual site data.</p>
+        <div class="proj-mini-stats">
+          <div class="pmstat"><div class="pmstat-val" style="color:var(--purple)">CNN</div><div class="pmstat-lbl">Architecture</div></div>
+          <div class="pmstat"><div class="pmstat-val" style="color:var(--blue)">28</div><div class="pmstat-lbl">Citations</div></div>
+        </div>
+      </div>
+      <div class="proj-mini">
+        <div class="proj-mini-top">
+          <div class="proj-mini-icon">🟢</div>
+          <span class="ptag internal">Intern · NVIDIA</span>
+        </div>
+        <h4>Recommendation Systems — NVIDIA Merlin</h4>
+        <p>Trained DLRM architecture on the Criteo 1TB dataset, achieving 0.639 accuracy over 10K iterations using Merlin and NVTabular. Implemented feature engineering and embedding layers on raw clickstream data.</p>
+        <div class="proj-mini-stats">
+          <div class="pmstat"><div class="pmstat-val" style="color:var(--gold)">+30%</div><div class="pmstat-lbl">Accuracy Improved</div></div>
+          <div class="pmstat"><div class="pmstat-val" style="color:var(--green)">3</div><div class="pmstat-lbl">Blogs</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div><!-- /sec-wrap -->
+</section>
+<!-- CONNECT -->
+<section id="connect" style=" left:50%;">
+  <div class="sec-wrap">
+  <div class="connect-inner">
+    <div class="badge-pill"><span class="dot"></span> Open to new opportunities</div>
+    <h2 class="sec-heading reveal">If your systems<br>need to hold up —</h2>
+    <p class="sec-sub reveal">I'm a backend engineer who builds distributed systems himself — and is now extending that into AI agents. If you're working on something that needs to handle real load, or a team exploring agentic AI, I'd love to hear about it.</p>
+    <p class="connect-note reveal">Open to conversations with engineers and teams doing interesting work.</p>
+    <div class="conn-links reveal">
+      <a href="https://www.linkedin.com/in/aryan-gupta21/" class="clink" target="_blank">🔗 Connect on LinkedIn</a>
+      <a href="https://github.com/beingaryan" class="clink" target="_blank">💻 GitHub</a>
+      <a href="mailto:beingryaan@gmail.com" class="clink">✉ Email directly</a>
+    </div>
+    <div class="contact-form reveal">
+      <h3>Send me a message</h3>
+      <p>Fill this out and hit Send Message to open it in your mail app.</p>
+      <form id="contactForm" action="mailto:beingryaan@gmail.com" method="POST" enctype="text/plain">
+        <div class="form-row">
+          <div class="form-group"><label>Your Name *</label><input type="text" name="name" placeholder="Jane Smith" required></div>
+          <div class="form-group"><label>Your Email *</label><input type="email" name="email" placeholder="jane@company.com" required></div>
+        </div>
+        <div class="form-row">
+          <div class="form-group"><label>Company / Role</label><input type="text" name="company" placeholder="Optional"></div>
+          <div class="form-group"><label>Subject *</label><input type="text" name="subject" placeholder="Backend role at [Company]" required></div>
+        </div>
+        <div class="form-group" style="margin-bottom:16px;">
+          <label>Message *</label>
+          <textarea name="message" placeholder="Tell me about the system you're building, or what you have in mind..." required maxlength="2000"></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="form-btn">Send message →</button>
+          <span class="char-count">0/2000</span>
+        </div>
+      </form>
+    </div>
+  </div><!-- /connect-inner -->
+  </div><!-- /sec-wrap -->
+</section>
+
+<footer>ARYAN GUPTA · PUNE, INDIA · VIT '22 · SIEMENS · NVIDIA</footer>
+
+<script>
+  // Cursor
+  const cur=document.getElementById('cur'),curR=document.getElementById('curR');
+  let mx=0,my=0,rx=0,ry=0;
+  document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;});
+  (function tick(){
+    cur.style.transform=`translate(${mx-5}px,${my-5}px)`;
+    rx+=(mx-rx)*0.1;ry+=(my-ry)*0.1;
+    curR.style.transform=`translate(${rx-16}px,${ry-16}px)`;
+    requestAnimationFrame(tick);
+  })();
+
+  // Nav scroll
+  const nav=document.getElementById('nav');
+  addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>60));
+
+  // Reveal on scroll
+  const io=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&e.target.classList.add('vis')),{threshold:0.08});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  // Journey tabs
+  document.querySelectorAll('.tl-item').forEach(t=>{
+    t.addEventListener('click',()=>{
+      const i=t.dataset.i;
+      document.querySelectorAll('.tl-item').forEach(x=>x.classList.remove('active'));
+      document.querySelectorAll('.jd-panel').forEach(x=>x.classList.remove('active'));
+      t.classList.add('active');
+      document.querySelector(`.jd-panel[data-i="${i}"]`).classList.add('active');
     });
-  </script>
-  <!--end-smooth-scrolling-->
-  <!-- //for bootstrap working -->
-  <script src="js/bootstrap.js"></script>
+  });
 
+  // Typewriter
+  const lines=['Cut latency by 60% on a 1M+ req/day system.','Migrated 30M+ records — zero downtime, 3 hours saved.','Eliminated 5–6% concurrency over-provisioning with Redisson.','Now learning LangChain & LangGraph for agentic systems.'];
+  let li=0,ci=0,del=false;
+  const tw=document.getElementById('typewriter');
+  function type(){
+    const line=lines[li];
+    if(!del){tw.textContent=line.slice(0,++ci);if(ci===line.length){del=true;setTimeout(type,2400);return;}}
+    else{tw.textContent=line.slice(0,--ci);if(ci===0){del=false;li=(li+1)%lines.length;setTimeout(type,400);return;}}
+    setTimeout(type,del?24:40);
+  }
+  setTimeout(type,1400);
 
+  // Char counter
+  const msg=document.querySelector('textarea[name="message"]');
+  const count=document.querySelector('.char-count');
+  if(msg){msg.addEventListener('input',()=>{count.textContent=`${msg.value.length}/2000`;});}
+</script>
 </body>
-
 </html>
